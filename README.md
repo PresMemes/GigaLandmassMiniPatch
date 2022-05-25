@@ -20,6 +20,6 @@ Make sure to download Gigastructures https://steamcommunity.com/sharedfiles/file
 - (STAR CLASS, GALACTIC CORE) Hyperquasar is messed up.  
 ```
 ## test.sav
-Put `test.sav` into your Documents\Paradox Interactive\Stellaris\save games folder, and it should boot you straight to the Giga settings screen, and I've already reseached all techs and maxed your resources. Of course, you can always make your own save and use that for testing.
+Put `test.sav` into your `Documents\Paradox Interactive\Stellaris\save games` folder, and it should boot you straight to the Giga settings screen, and I've already reseached all techs and maxed your resources. Of course, you can always make your own save and use that for testing.
 
 You do NOT need a new game for .asset file changes, loading an existing one is perfectly fine.
