@@ -1,6 +1,14 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
+
 entity = {
 	name = "giga_new_dirt_planet_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @effect_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"

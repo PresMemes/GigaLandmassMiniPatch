@@ -1,3 +1,11 @@
+@preview_scale = 12.0
+
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 ######################################################################
 ### Flatworld ########################################################
 ######################################################################
@@ -9,6 +17,7 @@ animation = {
 entity = {
 	name = "flat_earth_planet_clouds"
 	pdxmesh = "flat_planet_clouds_mesh"
+	scale = @effect_scale
 
 	meshsettings = {
 		name = "clouds_geosphereShape"
@@ -34,6 +43,7 @@ entity = {
 entity = {
 	name = "flat_earth_planet_01_entity"
 	pdxmesh = "flat_planet_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "atmosphere_geosphereShape"
@@ -68,7 +78,7 @@ entity = {
 	pdxmesh = "flat_planet_mesh"
 
 	game_data = {
-		size = 13
+		size = @preview_scale = 12.0
 	}
 
 	meshsettings = {

@@ -159,7 +159,7 @@ entity = {
 entity = {
 	name = "giga_planetary_computer_01_entity"
 	pdxmesh = "planet_non_clouded_mesh"s
-	scale = 120
+	scale = @planet_scale #PM: This isn't working for some reason. Look into it???
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -188,7 +188,7 @@ entity = {
 entity = {
 	name = "habitable_gas_giant_planet_01_entity"
 	pdxmesh = "planet_no_pole_no_clouds_mesh"
-	scale = 1.2
+	scale = @planet_scale #1.2
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -250,6 +250,7 @@ entity = {
 entity = {
 	name = "strip_mined_planet_01_entity"
 	pdxmesh = "planet_no_pole_no_clouds_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -271,6 +272,7 @@ entity = {
 entity = {
 	name = "core_mined_planet_01_entity"
 	pdxmesh = "planet_no_pole_no_clouds_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -292,6 +294,7 @@ entity = {
 entity = {
 	name = "melted_frozen_planet_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -336,6 +339,7 @@ entity = {
 entity = {
 	name = "katzenland_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -380,6 +384,7 @@ entity = {
 entity = {
 	name = "ll_temperate_planet_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -401,6 +406,7 @@ entity = {
 entity = {
 	name = "ll_foggy_planet_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -429,6 +435,7 @@ entity = {
 entity = {
 	name = "ll_torrid_planet_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"

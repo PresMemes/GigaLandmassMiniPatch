@@ -10,7 +10,7 @@
 entity = {
 	name = "giga_planetary_computer_nebula_entity"
 	pdxmesh = "planet_clouded_mesh"
-	scale = 120
+	scale = @planet_scale #PM: This isn't working for some reason. Look into it???
 
 	meshsettings = {
 		name = "planet_geosphereShape"

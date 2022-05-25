@@ -1,3 +1,9 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 ######################################################################
 ### Flusion ##########################################################
 ######################################################################
@@ -5,6 +11,7 @@
 entity = {
 	name = "flusion_planet_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -52,6 +59,7 @@ entity = {
 entity = {
 	name = "flusion_planet_nuked_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -89,6 +97,7 @@ entity = {
 entity = {
 	name = "flusion_planet_deserted_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -134,6 +143,7 @@ entity = {
 entity = {
 	name = "flusion_planet_gaia_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -180,6 +190,7 @@ entity = {
 entity = {
 	name = "flusion_planet_machine_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	#planet surface texture override
 	meshsettings = {
@@ -227,6 +238,7 @@ entity = {
 entity = {
 	name = "flusion_planet_hive_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -274,7 +286,7 @@ entity = {
 entity = {
 	name = "flusion_planet_cracked_entity"
 	pdxmesh = "shattered_planet_flusion_mesh"
-	scale = 0.23
+	scale = @planet_scale #0.23
 
 	default_state = "idle"
 
@@ -324,6 +336,7 @@ entity = {
 	name = "flusion_planet_desert_entity"
 	pdxmesh = "planet_clouded_mesh"
 	default_state = "idle"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -369,6 +382,7 @@ entity = {
 	name = "flusion_planet_arctic_entity"
 	pdxmesh = "planet_clouded_mesh"
 	default_state = "idle"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -386,6 +400,7 @@ entity = {
 entity = {
 	name = "flusion_planet_ocean_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -420,6 +435,7 @@ entity = {
 entity = {
 	name = "flusion_planet_torrid_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -452,6 +468,7 @@ entity = {
 entity = {
 	name = "flusion_planet_lifeless_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -470,6 +487,7 @@ entity = {
 entity = {
 	name = "flusion_planet_foggy_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -495,6 +513,7 @@ entity = {
 entity = {
 	name = "flusion_planet_molten_entity"
 	pdxmesh = "planet_no_pole_no_clouds_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -515,6 +534,7 @@ entity = {
 entity = {
 	name = "flusion_planet_city_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	#planet surface texture override
 	meshsettings = {
@@ -562,6 +582,7 @@ entity = {
 entity = {
 	name = "flusion_planet_shrouded_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 	name = "planet_geosphereShape"
@@ -615,6 +636,7 @@ entity = {
 entity = {
 	name = "flusion_planet_acot_entity"
 	pdxmesh = "planet_no_pole_no_clouds_mesh"
+	scale = @planet_scale
 
 	attach = { planet = "acot_city_planet_surface_ships_entity" }
 	locator = { name = "root2" rotation = { 45 0 180 } }
@@ -640,7 +662,7 @@ entity = {
 	name = "flusion_acot_enigmopolis_dummy_entity"
 	pdxmesh = "planet_no_pole_no_clouds_mesh"
 
-	scale = 0.98
+	scale = @planet_scale #0.98
 
 	locator = { name = "root"  rotation = { 0 0 0 } }
 	locator = { name = "root2" rotation = { 0 0 180 } }
@@ -677,6 +699,7 @@ entity = {
 entity = {
 	name = "flusion_planet_fluffy_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -723,6 +746,7 @@ entity = {
 entity = {
 	name = "flusion_planet_computer_entity"
 	pdxmesh = "planet_non_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
