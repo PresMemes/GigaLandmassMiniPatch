@@ -15,3 +15,4 @@ Make sure to download Gigastructures https://steamcommunity.com/sharedfiles/file
 Known issues:  
 Planetary Computer does not scale for some reason.  
 Flusio-Arcology disappears? Not sure if this is because of how I'm testing it.  
+Flat Worlds don't scale as well??
