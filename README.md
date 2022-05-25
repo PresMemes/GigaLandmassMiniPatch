@@ -15,7 +15,7 @@ Make sure to download Gigastructures https://steamcommunity.com/sharedfiles/file
 ## Known issues
 ```
 - (PLANET CLASS) Planetary Computer does not scale for some reason.  
-- (PLANET CLASS) Flusio-Arcology vanish for some reason.  
+- (PLANET CLASS) Flusio-Arcology vanishes for some reason.  
 - (PLANET CLASS) Flat Worlds also vanish.  
 - (STAR CLASS, GALACTIC CORE) Hyperquasar is messed up.  
 ```
