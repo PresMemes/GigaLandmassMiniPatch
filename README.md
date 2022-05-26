@@ -18,10 +18,10 @@ Put `test.sav` into your `Documents\Paradox Interactive\Stellaris\save games` fo
 You do NOT need a new game for .asset file changes, loading an existing one is perfectly fine.
 
 ## Known issues
+NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_world) will make it dissapear. In that case, you need to make it spawn naturally. 
 ```
 - (PLANET CLASS) Planetary Computer does not scale for some reason.  
-- (PLANET CLASS) Flusio-Arcology vanishes for some reason.  
-- (PLANET CLASS) Flat Worlds also vanish. EDIT: Vanishing planets might be because these are usually event spawned.  
+- (PLANET CLASS) Flusio-Arcology vanishes for some reason.   
 ```
 ## To do
 - Planet and Star Scaling  
