@@ -158,8 +158,7 @@ entity = {
 ######################################################################
 entity = {
 	name = "giga_planetary_computer_01_entity"
-	pdxmesh = "planet_non_clouded_mesh"s
-	scale = @planet_scale #PM: This isn't working for some reason. Look into it???
+	pdxmesh = "planet_non_clouded_mesh"
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -180,6 +179,8 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class_02" } }
 	}
+	scale = @planet_scale
+
 }
 
 ######################################################################
