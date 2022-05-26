@@ -18,7 +18,7 @@ Put `test.sav` into your `Documents\Paradox Interactive\Stellaris\save games` fo
 You do NOT need a new game for .asset file changes, loading an existing one is perfectly fine.
 
 ## Known issues
-NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_world) will make it dissapear. In that case, you need to make it spawn naturally. 
+NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_world) will make it dissapear. In that case, you need to spawn it naturally. Either through the intended event chain (EHOF stuff) or unzipping your save game to find which star a certain planet spawned.  
 ```
 - None
 ```
