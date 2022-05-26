@@ -20,7 +20,7 @@ You do NOT need a new game for .asset file changes, loading an existing one is p
 ## Known issues
 NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_world) will make it dissapear. In that case, you need to make it spawn naturally. 
 ```
-- (PLANET CLASS) Planetary Computer does not scale for some reason.  
+- None
 ```
 ## To do
 - Planet and Star Scaling  
