@@ -17,7 +17,6 @@ Make sure to download Gigastructures https://steamcommunity.com/sharedfiles/file
 - (PLANET CLASS) Planetary Computer does not scale for some reason.  
 - (PLANET CLASS) Flusio-Arcology vanishes for some reason.  
 - (PLANET CLASS) Flat Worlds also vanish.  
-- (STAR CLASS, GALACTIC CORE) Hyperquasar is messed up.  
 ```
 ## test.sav
 Put `test.sav` into your `Documents\Paradox Interactive\Stellaris\save games` folder, and it should boot you straight to the Giga settings screen, and I've already reseached all techs and maxed your resources. Of course, you can always make your own save and use that for testing.
