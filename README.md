@@ -32,4 +32,4 @@ NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_wor
 - Ship Scaling  
   - I think this is mostly fine, but please check anyway.
 - Megastructure Scaling  
-  - also everything  
+  - Birch World, and everything you can see in the Aeternum home system is done.
