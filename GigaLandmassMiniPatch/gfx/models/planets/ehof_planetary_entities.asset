@@ -1,7 +1,16 @@
+@preview_scale = 12.0
+
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #######################				RED TOXIC PLANET				#######################
 entity = {
 	name = "red_toxic_planet_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	meshsettings = {
 		name = "planet_geosphereShape"
@@ -352,7 +361,7 @@ entity = {
 entity = {
 	name = "ehof_cplanet_real_entity"
 	pdxmesh = "ehof_cplanet_chrome_mesh"
-	scale = 50
+	scale = 100 #50
 
 	default_state = "idle"
 	state = {
@@ -442,7 +451,7 @@ entity = {
 	name = "orbital_bombardment_effects"
 	pdxmesh = "bombardment_frame_mesh"
 	cull_radius = 500.0
-	scale = 1.0
+	scale = @effect_scale
 
 	state = { name = "bombard_selective" state_time = 4 looping = no next_state = "bombard_selective" chance = 1
 		event = { time = 0 node = "bombardment_location_1" particle = "planetary_bombardment_effect" keep_particle = yes sound = { soundeffect = "bombardment_explosion" } }

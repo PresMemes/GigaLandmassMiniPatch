@@ -182,7 +182,7 @@ entity = {
 # Assembled
 entity = {
 	name = "core_quasar_entity"
-	scale = 220
+	scale = 2000 #220
 	cull_radius = 99999
 
 	playback_rate = 2.5

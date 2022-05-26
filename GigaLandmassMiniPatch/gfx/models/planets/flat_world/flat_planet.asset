@@ -69,6 +69,7 @@ entity = {
 
 	locator = { name = "center" }
 	attach = { center = "flat_earth_planet_clouds" }
+	scale = @planet_scale
 }
 
 entity = {
@@ -76,7 +77,7 @@ entity = {
 	pdxmesh = "flat_planet_mesh"
 
 	game_data = {
-		size = 13
+		size = @preview_scale #13
 	}
 
 	meshsettings = {
