@@ -10,7 +10,7 @@ Gigastructures - Landmass - Miniatures patch
 ```
 Or something like that  
 
-Put `Gigastructures - Landmass - Miniatures patch` into your `Documents\Paradox Interactive\Stellaris\mods` folder and Irony should detect it. (Or your custom mod folder if you have one set up)
+Put `GigaLandmassMiniPatch` into your `Documents\Paradox Interactive\Stellaris\mods` folder and Irony should detect it. (Or your custom mod folder if you have one set up)
 
 Make sure to download Gigastructures https://steamcommunity.com/sharedfiles/filedetails/?id=1121692237 so you can check the original files
 
