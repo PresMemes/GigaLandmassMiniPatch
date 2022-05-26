@@ -29,6 +29,6 @@ NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_wor
   - Blokkat stuff needs to be tested
   - Flusio-Arcology needs to be tested naturally (can't use planet_class console commands)
 - Ship Scaling  
-  - everything lmao  
+  - I think this is mostly fine, but please check anyway.
 - Megastructure Scaling  
   - also everything  
