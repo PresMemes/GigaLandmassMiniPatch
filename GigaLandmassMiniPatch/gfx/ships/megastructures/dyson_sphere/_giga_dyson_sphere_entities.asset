@@ -1,5 +1,11 @@
 @dyson_scale_o_star = 75
 
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
@@ -63,7 +69,7 @@ entity = {
 	name = "penta_rays_short_o_star_entity"
 	pdxmesh = "penta_rays_short_mesh"
 		
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10 }
@@ -87,7 +93,7 @@ entity = {
 	name = "penta_rays_o_star_entity"
 	pdxmesh = "penta_rays_mesh"
 	
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	game_data = {
 		uv_animation_speed   = 0.02
@@ -108,7 +114,7 @@ entity = {
 	name = "hexa_rays_o_star_entity"
 	pdxmesh = "hexa_rays_mesh"
 		
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_starS
 	
 	game_data = {
 		uv_animation_speed   = 0.1
@@ -135,7 +141,7 @@ entity = {
 entity = {
 	name = "molluscoid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -160,7 +166,7 @@ entity = {
 entity = {
 	name = "molluscoid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -185,7 +191,7 @@ entity = {
 entity = {
 	name = "molluscoid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -209,7 +215,7 @@ entity = {
 entity = {
 	name = "molluscoid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -232,7 +238,7 @@ entity = {
 entity = {
 	name = "molluscoid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -353,7 +359,7 @@ entity = {
 entity = {
 	name = "mammalian_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -373,7 +379,7 @@ entity = {
 entity = {
 	name = "mammalian_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -393,7 +399,7 @@ entity = {
 entity = {
 	name = "mammalian_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -413,7 +419,7 @@ entity = {
 entity = {
 	name = "mammalian_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -433,7 +439,7 @@ entity = {
 entity = {
 	name = "mammalian_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -546,7 +552,7 @@ entity = {
 entity = {
 	name = "plantoid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -569,7 +575,7 @@ entity = {
 entity = {
 	name = "plantoid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -592,7 +598,7 @@ entity = {
 entity = {
 	name = "plantoid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -615,7 +621,7 @@ entity = {
 entity = {
 	name = "plantoid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -638,7 +644,7 @@ entity = {
 entity = {
 	name = "plantoid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -755,7 +761,7 @@ entity = {
 entity = {
 	name = "fungoid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -778,7 +784,7 @@ entity = {
 entity = {
 	name = "fungoid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -801,7 +807,7 @@ entity = {
 entity = {
 	name = "fungoid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -824,7 +830,7 @@ entity = {
 entity = {
 	name = "fungoid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -847,7 +853,7 @@ entity = {
 entity = {
 	name = "fungoid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -963,7 +969,7 @@ entity = {
 entity = {
 	name = "reptilian_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -986,7 +992,7 @@ entity = {
 entity = {
 	name = "reptilian_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1009,7 +1015,7 @@ entity = {
 entity = {
 	name = "reptilian_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1032,7 +1038,7 @@ entity = {
 entity = {
 	name = "reptilian_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1055,7 +1061,7 @@ entity = {
 entity = {
 	name = "reptilian_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1172,7 +1178,7 @@ entity = {
 entity = {
 	name = "arthropoid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1195,7 +1201,7 @@ entity = {
 entity = {
 	name = "arthropoid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1218,7 +1224,7 @@ entity = {
 entity = {
 	name = "arthropoid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1241,7 +1247,7 @@ entity = {
 entity = {
 	name = "arthropoid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1264,7 +1270,7 @@ entity = {
 entity = {
 	name = "arthropoid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1381,7 +1387,7 @@ entity = {
 entity = {
 	name = "avian_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1405,7 +1411,7 @@ entity = {
 entity = {
 	name = "avian_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1429,7 +1435,7 @@ entity = {
 entity = {
 	name = "avian_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1453,7 +1459,7 @@ entity = {
 entity = {
 	name = "avian_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1477,7 +1483,7 @@ entity = {
 entity = {
 	name = "avian_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1595,7 +1601,7 @@ entity = {
 entity = {
 	name = "lithoid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1621,7 +1627,7 @@ entity = {
 entity = {
 	name = "lithoid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1646,7 +1652,7 @@ entity = {
 entity = {
 	name = "lithoid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1670,7 +1676,7 @@ entity = {
 entity = {
 	name = "lithoid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1693,7 +1699,7 @@ entity = {
 entity = {
 	name = "lithoid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1815,7 +1821,7 @@ entity = {
 entity = {
 	name = "humanoid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1835,7 +1841,7 @@ entity = {
 entity = {
 	name = "humanoid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1855,7 +1861,7 @@ entity = {
 entity = {
 	name = "humanoid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1875,7 +1881,7 @@ entity = {
 entity = {
 	name = "humanoid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -1895,7 +1901,7 @@ entity = {
 entity = {
 	name = "humanoid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2010,7 +2016,7 @@ entity = {
 entity = {
 	name = "necroid_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2036,7 +2042,7 @@ entity = {
 entity = {
 	name = "necroid_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2061,7 +2067,7 @@ entity = {
 entity = {
 	name = "necroid_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2085,7 +2091,7 @@ entity = {
 entity = {
 	name = "necroid_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2108,7 +2114,7 @@ entity = {
 entity = {
 	name = "necroid_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2231,7 +2237,7 @@ entity = {
 entity = {
 	name = "nemesis_01_dyson_sphere_frame_o_star_entity"
 	pdxmesh = "dyson_sphere_frame_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2257,7 +2263,7 @@ entity = {
 entity = {
 	name = "nemesis_01_dyson_sphere_part_1_o_star_entity"
 	pdxmesh = "dyson_sphere_part_1_mesh"
-		scale = @dyson_scale_o_star
+		scale = 25 #@dyson_scale_o_star
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2282,7 +2288,7 @@ entity = {
 entity = {
 	name = "nemesis_01_dyson_sphere_part_2_o_star_entity"
 	pdxmesh = "dyson_sphere_part_2_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2306,7 +2312,7 @@ entity = {
 entity = {
 	name = "nemesis_01_dyson_sphere_part_3_o_star_entity"
 	pdxmesh = "dyson_sphere_part_3_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10
@@ -2329,7 +2335,7 @@ entity = {
 entity = {
 	name = "nemesis_01_dyson_sphere_part_4_o_star_entity"
 	pdxmesh = "dyson_sphere_part_4_mesh"
-	scale = @dyson_scale_o_star
+	scale = 25 #@dyson_scale_o_star
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 10

@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "crystal_megabore_core_entity"
 	pdxmesh = "reptilian_01_colossus_mesh"
@@ -114,7 +120,7 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "sfx_matter_decompressor_hum" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "sfx_matter_decompressor_hum_treble" } }
 	}
-	scale = 0.80
+	scale = 0.4 #0.80
 }
 
 entity = {
@@ -144,7 +150,7 @@ entity = {
 	attach = { "loc101" = "crystal_megabore_core_entity" }
 
 
-	scale = 1.25
+	scale = @planet_scale #1.25
 }
 
 entity = {
@@ -158,7 +164,7 @@ entity = {
 	attach = { "loc103" = "crystal_megabore_beam_no_beam_entity" }
 
 
-	scale = 1.25
+	scale = @planet_scale
 }
 
 entity = {
@@ -169,7 +175,7 @@ entity = {
 
 	attach = { "loc103" = "crystal_megabore_beam_no_beam_entity" }
 
-	scale = 1.25
+	scale = @planet_scale #1.25
 }
 
 entity = {
@@ -180,7 +186,7 @@ entity = {
 
 	attach = { "loc103" = "crystal_megabore_drill_entity" }
 
-	scale = 1.25
+	scale = @planet_scale #1.25
 }
 
 entity = {
@@ -198,7 +204,7 @@ entity = {
 	attach = { "loc103" = "crystal_megabore_beam_entity" }
 	attach = { "loc103" = "crystal_megabore_beam_entity" }
 
-	scale = 1.25
+	scale = @planet_scale #1.25
 }
 
 

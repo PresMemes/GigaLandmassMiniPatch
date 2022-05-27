@@ -1,3 +1,8 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
 
 entity = {
 	name = "automated_stripmine_1_part_entity"
@@ -79,7 +84,7 @@ entity = {
 	attach = { loc104 = "automated_stripmine_ring_entity" }
 
 
-	scale = 1
+	scale = @planet_scale
 }
 
 entity = {
@@ -135,7 +140,7 @@ entity = {
 	attach = { loc104 = "automated_stripmine_ring_entity" }
 
 
-	scale = 1
+	scale = @planet_scale
 }
 
 entity = {

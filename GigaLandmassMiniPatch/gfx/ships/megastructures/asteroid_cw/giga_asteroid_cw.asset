@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 animation = {
 	name = "giga_asteroid_cw_anim"
 	file = "giga_asteroidcw.anim"
@@ -13,7 +19,7 @@ entity = {
 
 entity = {
 	name = "asteroid_cw_01_entity"
-	scale = 2
+	scale = @astroid_scale
 	cull_radius = 500
 	game_data = {
 		emissive_recolor_crunch = 50
@@ -62,7 +68,7 @@ entity = {
 
 entity = {
 	name = "asteroid_cw_02_entity"
-	scale = 2
+	scale = @astroid_scale
 	cull_radius = 500
 	game_data = {
 		emissive_recolor_crunch = 50

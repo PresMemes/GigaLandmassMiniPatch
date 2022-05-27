@@ -64,7 +64,7 @@ entity = {
 	attach = { l01 = "giga_alderson_gaia_01_entity" }
 	attach = { l02 = "giga_alderson_frame_part_01_entity" }
 	attach = { l02 = "giga_alderson_gaia_01_entity" }
-	attach = { l03 = "giga_alderson_frame_part_01_entity" }
+	attach = { l03 = "giga_alderson_frame_part_01_entity" } #PM: Fix slices not being in the correct position
 	attach = { l03 = "giga_alderson_gaia_01_entity" }
 	attach = { l04 = "giga_alderson_frame_part_01_entity" }
 	attach = { l04 = "giga_alderson_gaia_01_entity" }
@@ -218,7 +218,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -270,7 +270,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -322,7 +322,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -374,7 +374,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -426,7 +426,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -476,7 +476,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -526,7 +526,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }
@@ -576,7 +576,7 @@ entity = {
 	pdxmesh = "giga_alderson_full_mesh"
 	cull_radius = 99999
 	game_data = { size = 250 }
-	scale = @star_scale
+	scale = @planet_scale
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 100 time_offset = { 0 100 } }

@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 ##################################################################
 ### Engineering test site
 ##################################################################
@@ -112,7 +118,7 @@ entity = {
 	attach = { loc105 = "eng_megabase_station_1_ruined_debris" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @planet_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -134,7 +140,7 @@ entity = {
 	attach = { loc104 = "engineering_station_part_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @planet_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
