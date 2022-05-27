@@ -23,7 +23,6 @@ You do NOT need a new game for .asset file changes, loading an existing one is p
 NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_world) will make it dissapear. In that case, you need to spawn it naturally. Either through the intended event chain (EHOF stuff) or unzipping your save game to find which star a certain planet spawned.  
 ```
 - (AETERNUM/MEGASTRUCTURE) Orbital Arcology does not scale with the Planetary Computers? Works fine with other planets.
-- (MEGASTRUCTURE) Alderson disk's slices are not properly positioned.
 ```
 ## To do
 - Planet and Star Scaling  
