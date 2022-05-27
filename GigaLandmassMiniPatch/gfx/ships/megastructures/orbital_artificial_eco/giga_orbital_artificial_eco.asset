@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #################################################################################################################
 # Orbital Artificial Ecosystem
 #################################################################################################################
@@ -44,7 +50,7 @@ entity = {
 	attach = { loc112 = "ringworld_sphere_entity" }
 
 
-	scale = 0.09	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = 4.5 #0.09	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {

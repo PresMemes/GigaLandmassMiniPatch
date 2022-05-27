@@ -1,3 +1,9 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 ####NIDAVELLIR####
 entity = {
 	name = "nidavellir_ring_1_entity"
@@ -78,7 +84,7 @@ entity = {
 	attach = { "lens4" = "nidavellir_lens_4_entity" }
 	attach = { "lens42" = "nidavellir_lens_4_nobeam_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 entity = {
@@ -202,7 +208,7 @@ entity = {
 	attach = { "loc101" = "nidavellir_ring_1_entity" }
 	attach = { "lens1" = "nidavellir_lens_1_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 entity = {
@@ -215,7 +221,7 @@ entity = {
 	attach = { "loc101" = "nidavellir_ring_2_entity" }
 	attach = { "lens2" = "nidavellir_lens_2_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 
@@ -232,7 +238,7 @@ entity = {
 	attach = { "lens1" = "nidavellir_lens_1_entity" }
 	attach = { "lens2" = "nidavellir_lens_2_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 entity = {
@@ -245,7 +251,7 @@ entity = {
 	attach = { "loc101" = "nidavellir_ring_3_entity" }
 	attach = { "lens3" = "nidavellir_lens_3_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 entity = {
@@ -264,7 +270,7 @@ entity = {
 	attach = { "lens2" = "nidavellir_lens_2_entity" }
 	attach = { "lens3" = "nidavellir_lens_3_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 entity = {
@@ -277,7 +283,7 @@ entity = {
 	attach = { "loc101" = "nidavellir_ring_4_entity" }
 	attach = { "lens4" = "nidavellir_lens_4_entity" }
 
-	scale = 7.5
+	scale = 40 #7.5
 }
 
 

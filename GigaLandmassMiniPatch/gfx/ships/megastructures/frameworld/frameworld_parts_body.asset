@@ -210,7 +210,7 @@ entity = {
 
 entity = {
 	name = "reptilian_01_frameworld_core_entity"
-	pdxmesh = "reptilian_01_upgraded_orbital_habitat_mesh"	
+	pdxmesh = "reptilian_01_upgraded_orbital_habitat_mesh"
 	
 	default_state = "habitat_idle"
 	state = { name = "habitat_idle" state_time = 5 animation_speed = 0.3

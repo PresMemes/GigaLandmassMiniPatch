@@ -1,5 +1,11 @@
 @ehof_scale = 24
 
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 ###########################################################################################################
 ################################################ EHOF EXIT ################################################
 ###########################################################################################################
@@ -65,7 +71,7 @@ entity = {
 entity = {
 	name = "ehof_megastructure_destroyed_entity"
 	pdxmesh = "ehofmega_destroyed"
-	scale = @ehof_scale
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 0.05
@@ -124,6 +130,7 @@ entity = { name = "ehof_megastructure_phase1_active_entity"		cull_radius = 150 s
 entity = {
 	name = "phase1_nowormhole_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 1
@@ -143,6 +150,7 @@ entity = {
 entity = {
 	name = "phase1_wormhole_activating_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -164,6 +172,7 @@ entity = {
 entity = {
 	name = "phase1_wormhole_active_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -236,6 +245,7 @@ entity = { name = "ehof_megastructure_phase2_active_entity" cull_radius = 150 sc
 entity = {
 	name = "phase2_nowormhole_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 1
@@ -255,6 +265,7 @@ entity = {
 entity = {
 	name = "phase2_wormhole_activating_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -281,6 +292,7 @@ entity = {
 entity = {
 	name = "phase2_wormhole_active_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -894,6 +906,7 @@ entity = { name = "ehof_megastructure_phase3_active_entity" cull_radius = 150 sc
 entity = {
 	name = "phase3_nowormhole_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 1
@@ -913,6 +926,7 @@ entity = {
 entity = {
 	name = "phase3_wormhole_activating_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -939,6 +953,7 @@ entity = {
 entity = {
 	name = "phase3_wormhole_active_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -1473,6 +1488,7 @@ entity = { name = "ehof_megastructure_phase4_active_entity" cull_radius = 150 sc
 entity = {
 	name = "phase4_nowormhole_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 1
@@ -1492,6 +1508,7 @@ entity = {
 entity = {
 	name = "phase4_wormhole_activating_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4
@@ -1522,6 +1539,7 @@ entity = {
 entity = {
 	name = "phase4_wormhole_active_entity"
 	pdxmesh = "ehofmega_locators"
+	scale = @star_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 4

@@ -1,3 +1,9 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #################################################################################################################
 # Matrioshka Brain
 #################################################################################################################
@@ -16,7 +22,7 @@ entity = {
 	attach = { loc101 = "matrioshka_brain_ring_entity" }
 	attach = { loc102 = "matrioshka_brain_ring_entity" }
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -38,7 +44,7 @@ entity = {
 	attach = { loc104 = "matrioshka_brain_computer_ring_entity" }
 	attach = { loc105 = "matrioshka_brain_computer_ring_entity" }
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -56,7 +62,7 @@ entity = {
 	attach = { loc104 = "matrioshka_brain_computer_ring_entity" }
 	attach = { loc105 = "matrioshka_brain_computer_ring_entity" }
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -80,7 +86,7 @@ entity = {
 	attach = { loc105 = "matrioshka_brain_computer_ring_entity" }
 	attach = { loc108 = "matrioshka_brain_datasphere_entity" }
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -122,7 +128,7 @@ entity = {
 	attach = { loc107 = "matrioshka_brain_main_ring_entity" }
 	attach = { loc108 = "matrioshka_brain_datasphere_entity" }
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -138,7 +144,7 @@ entity = {
 	attach = { loc106 = "matrioshka_brain_main_ring_entity" }
 	attach = { loc107 = "matrioshka_brain_main_ring_entity" }
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -174,7 +180,7 @@ entity = {
 	attach = { loc111 = "matrioshka_brain_bigdataring_entity" }
 
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 entity = {
@@ -194,7 +200,7 @@ entity = {
 	attach = { loc111 = "matrioshka_brain_bigdataring_entity" }
 
 
-	scale = 2.14
+	scale = @star_scale #2.14
 }
 
 

@@ -1,3 +1,9 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "planetary_drive_yard_piece_entity"
 	pdxmesh = "ancient_destroyer_mesh"
@@ -131,7 +137,7 @@ entity = {
 	cull_radius = 500
 	pdxmesh = "molluscoid_01_corvette_frame_mesh" # empty mesh workaround for name plate position
 
-	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } scale = @planet_scale }
 	
 	attach = { "loc101" = "planetary_drive_yard_full_split_entity" }
 
@@ -160,7 +166,7 @@ entity = {
 	cull_radius = 500
 	pdxmesh = "molluscoid_01_corvette_frame_mesh" # empty mesh workaround for name plate position
 
-	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } scale = @planet_scale }
 	
 	attach = { "loc101" = "planetary_drive_yard_full_fortress_split_entity" }
 
@@ -211,7 +217,7 @@ entity = {
 	cull_radius = 500
 	pdxmesh = "molluscoid_01_corvette_frame_mesh" # empty mesh workaround for name plate position
 
-	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } scale = @planet_scale }
 	
 	attach = { "loc101" = "planetary_drive_yard_full_shipyard_split_entity" }
 

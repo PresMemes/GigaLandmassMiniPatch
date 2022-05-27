@@ -1,3 +1,9 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #################################################################################################################
 # Matrioshka Brain
 #################################################################################################################
@@ -329,7 +335,7 @@ entity = {
 	attach = { loc101 = "matrioshka_brain_ruined_ring_entity" }
 	attach = { loc102 = "matrioshka_brain_ruined_ring_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -351,7 +357,7 @@ entity = {
 	attach = { loc104 = "matrioshka_brain_ruined_computer_ring_entity" }
 	attach = { loc105 = "matrioshka_brain_ruined_computer_ring_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -369,7 +375,7 @@ entity = {
 	attach = { loc104 = "matrioshka_brain_ruined_computer_ring_entity" }
 	attach = { loc105 = "matrioshka_brain_ruined_computer_ring_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -393,7 +399,7 @@ entity = {
 	attach = { loc105 = "matrioshka_brain_ruined_computer_ring_entity" }
 	attach = { loc108 = "matrioshka_brain_ruined_datasphere_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -407,7 +413,7 @@ entity = {
 
 	attach = { loc108 = "matrioshka_brain_ruined_datasphere_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -435,7 +441,7 @@ entity = {
 	attach = { loc107 = "matrioshka_brain_ruined_main_ring_entity" }
 	attach = { loc108 = "matrioshka_brain_ruined_datasphere_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -451,7 +457,7 @@ entity = {
 	attach = { loc106 = "matrioshka_brain_ruined_main_ring_entity" }
 	attach = { loc107 = "matrioshka_brain_ruined_main_ring_entity" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 #Final
@@ -506,7 +512,7 @@ entity = {
 	attach = { loc123 = "giga_ruined_matrioskha_debris" }
 	attach = { loc124 = "giga_ruined_matrioskha_debris" }
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 entity = {
@@ -526,7 +532,7 @@ entity = {
 	attach = { loc111 = "matrioshka_brain_ruined_bigdataring_entity" }
 
 
-	scale = 1
+	scale = @star_scale #1
 }
 
 

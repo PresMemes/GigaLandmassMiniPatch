@@ -1,3 +1,13 @@
+@preview_scale = 12.0
+
+@strike_craft_scale = 0.1
+@screen_ship_scale = 0.3
+@cruise_ship_scale = 0.5
+@capital_ship_scale = 0.6
+@titan_ship_scale = 0.6
+@juggernaut_ship_scale = 0.6
+@big_station_scale = 0.6
+
 #################################
 ### Strategic Defence Command ###
 #################################
@@ -6,6 +16,7 @@
 entity = {
 	name = "giga_maginot_orbital_defence_platform_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+	scale = @big_station_scale
 	game_data = {
 		size = 1
 		shader_type = ship

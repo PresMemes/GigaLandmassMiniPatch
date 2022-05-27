@@ -1,3 +1,8 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
 
 entity = {
 	name = "fusion_suppressor_part_01_entity"
@@ -179,7 +184,7 @@ entity = {
 	attach = { loc106 = "fusion_suppressor_part_01_entity" }
 
 
-	scale = 0.75
+	scale = 11.25 #0.75
 }
 
 entity = {
@@ -198,7 +203,7 @@ entity = {
 	attach = { loc107 = "fusion_suppressor_ring_2_entity" }
 
 
-	scale = 0.75
+	scale = 11.25 #0.75
 }
 
 entity = {
@@ -224,7 +229,7 @@ entity = {
 	attach = { loc107 = "fusion_suppressor_ring_2_entity" }
 
 
-	scale = 0.75
+	scale = 11.25 #0.75
 }
 
 entity = {
@@ -252,5 +257,5 @@ entity = {
 	attach = { loc108 = "stellar_beams_entity" }
 
 
-	scale = 0.75
+	scale = 11.25 #0.75
 }

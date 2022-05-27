@@ -1,3 +1,9 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #################################################################################################################
 # HRAE-MC
 #################################################################################################################
@@ -241,7 +247,7 @@ entity = {
 	attach = { loc108 = "hrae_mc_accelerator_ring_entity" }
 
 
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {
@@ -263,7 +269,7 @@ entity = {
 	attach = { loc108 = "hrae_mc_accelerator_ring_entity" }
 
 
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {
@@ -281,7 +287,7 @@ entity = {
 	attach = { loc106 = "hrae_mc_energytwo_entity" }
 
 
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {
@@ -306,7 +312,7 @@ entity = {
 	attach = { loc112 = "hrae_mc_accretion_ring_entity" }
 	attach = { loc113 = "hrae_mc_accretion_ring_entity" }
 
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {
@@ -325,7 +331,7 @@ entity = {
 	attach = { loc113 = "hrae_mc_accretion_ring_entity" }
 
 
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {
@@ -357,7 +363,7 @@ entity = {
 	attach = { loc111 = "hrae_mc_generator_ring_entity" }
 	attach = { loc112 = "hrae_mc_accretion_ring_entity" }
 	attach = { loc113 = "hrae_mc_accretion_ring_entity" }
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {
@@ -380,7 +386,7 @@ entity = {
 	attach = { loc111 = "hrae_mc_generator_ring_entity" }
 
 
-	scale = 1.2
+	scale = @star_scale #1.2
 }
 
 entity = {

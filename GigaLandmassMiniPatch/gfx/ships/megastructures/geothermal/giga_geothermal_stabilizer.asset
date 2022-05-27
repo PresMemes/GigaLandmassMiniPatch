@@ -1,3 +1,8 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
 
 #Machine ship models, used with permission. Thanks Erin!
 entity = {
@@ -47,7 +52,7 @@ entity = {
 
 	attach = { "loc103" = "geothermal_stabilizer_ring_bulk_entity" }
 
-	scale = 2.25
+	scale = @planet_scale #2.25
 }
 
 #Stage 2
@@ -115,7 +120,7 @@ entity = {
 	attach = { "loc101" = "geothermal_stabilizer_thingy_three_entity" }
 	attach = { "loc103" = "geothermal_stabilizer_ring_bulk_entity" }
 
-	scale = 2.25
+	scale = @planet_scale #2.25
 }
 
 entity = {
@@ -128,7 +133,7 @@ entity = {
 	attach = { "loc101" = "geothermal_stabilizer_emitter_three_entity" }
 	attach = { "loc103" = "geothermal_stabilizer_thingy_three_entity" }
 
-	scale = 2.25
+	scale = @planet_scale #2.25
 }
 
 #Stage 3 (Animation)
@@ -166,5 +171,5 @@ entity = {
 
 	attach = { "loc101" = "geothermal_stabilizer_ice_three_entity" }
 
-	scale = 2.25
+	scale = @planet_scale #2.25
 }

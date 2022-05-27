@@ -1,3 +1,8 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
 
 #Machine ship models, used with permission. Thanks Erin!
 #portal
@@ -581,7 +586,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -608,7 +613,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -633,7 +638,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -687,7 +692,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -720,7 +725,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -790,7 +795,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -817,7 +822,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 entity = {
@@ -879,7 +884,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 ###final step (inactive)###
@@ -971,7 +976,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 ###THE WHOLE THING###
@@ -1183,7 +1188,7 @@ entity = {
 
 	playback_rate = 0.05
 
-	scale = 1
+	scale = 9.5 #1
 }
 
 #portal#
@@ -1346,7 +1351,7 @@ entity = {
 	attach = { "loc125" = "titan_laser_muzzle_entity" }
 	attach = { "loc125" = "titan_laser_muzzle_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 entity = {
@@ -1357,7 +1362,7 @@ entity = {
 
 	attach = { "loc124" = "quasistellar_firing_1_laser_front_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 entity = {
@@ -1368,7 +1373,7 @@ entity = {
 
 	attach = { "loc124" = "quasistellar_firing_2_laser_front_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 entity = {
@@ -1379,7 +1384,7 @@ entity = {
 
 	attach = { "loc124" = "quasistellar_firing_3_laser_front_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 entity = {
@@ -1390,7 +1395,7 @@ entity = {
 
 	attach = { "loc124" = "quasistellar_firing_4_laser_front_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 entity = {
@@ -1401,7 +1406,7 @@ entity = {
 
 	attach = { "loc124" = "quasistellar_firing_5_laser_front_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 entity = {
@@ -1412,7 +1417,7 @@ entity = {
 
 	attach = { "loc124" = "quasistellar_firing_6_laser_front_entity" }
 
-	scale = 1
+	scale = 10 #1
 }
 
 ###LASERS###

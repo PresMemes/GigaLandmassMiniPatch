@@ -1,4 +1,11 @@
 @glue_scale = 2.5
+
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 animation = {
 	name = "giga_glue_anim"
 	file = "giga_glue.anim"
@@ -8,7 +15,7 @@ entity = {
 	name = "giga_glue_p1_entity"
 	pdxmesh = "giga_glue_p1_mesh"
 	cull_radius = 500
-	scale = @glue_scale
+	scale = @planet_scale #@glue_scale
 
 	game_data = {
 		bloom_factor = 2
@@ -32,7 +39,7 @@ entity = {
 	name = "giga_glue_p2_construction_entity"
 	pdxmesh = "giga_glue_p2_mesh"
 	cull_radius = 500
-	scale = @glue_scale
+	scale = @planet_scale #@glue_scale
 
 	game_data = {
 		bloom_factor = 2
@@ -43,7 +50,7 @@ entity = {
 	name = "giga_glue_p3_construction_entity"
 	pdxmesh = "giga_glue_p3_static_mesh"
 	cull_radius = 500
-	scale = @glue_scale
+	scale = @planet_scale #@glue_scale
 
 	game_data = {
 		bloom_factor = 2
@@ -78,7 +85,7 @@ entity = {
 entity = {
 	name = "giga_glue_p3_entity"
 	pdxmesh = "giga_glue_p3_mesh"
-	scale = @glue_scale
+	scale = @planet_scale #@glue_scale
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_speed = 0.2

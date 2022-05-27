@@ -1,3 +1,8 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
 
 entity = {
 	name = "kugelblitz_parttwo_entity"
@@ -79,7 +84,7 @@ entity = {
 	attach = { loc103 = "eng_megabase_station_1_ruined_debris" }
 
 
-	scale = 1
+	scale = @planet_scale #1
 }
 
 entity = {
@@ -101,7 +106,7 @@ entity = {
 	attach = { loc104 = "automated_stripmine_part_thing_entity" }
 
 
-	scale = 1
+	scale = @planet_scale #1
 }
 
 entity = {
@@ -178,7 +183,7 @@ entity = {
 	name = "black_hole_g_entity"
 	pdxmesh = "black_hole_new_mesh"
 
-	scale = 1.75
+	scale = 5 #1.75
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
 		event = { trigger_once = yes sound = { soundeffect = "blackhole_hum_idle" } }
@@ -219,7 +224,7 @@ entity = {
 	attach = { loc102 = "black_hole_generator_beam_entity" }
 
 
-	scale = 1
+	scale = @effect_scale #1
 }
 
 entity = {
@@ -238,8 +243,8 @@ entity = {
 	name = "kugelblitz_empty_entity"
 	cull_radius = 1000
 
-	locator = { name = "loc101" position = { 0 25 0 } rotation = { 0 90 0 } }
-	locator = { name = "loc102" position = { 0 -25 0 } rotation = { 0 -90 0 } }
+	locator = { name = "loc101" position = { 0 100 0 } rotation = { 0 90 0 } } #0 25 0
+	locator = { name = "loc102" position = { 0 -100 0 } rotation = { 0 -90 0 } } #0 -25 0
 
 	attach = { loc101 = "kugelblitz_part_big_entity" }
 	attach = { loc102 = "kugelblitz_part_big_entity" }
@@ -252,8 +257,8 @@ entity = {
 	name = "kugelblitz_full_entity"
 	cull_radius = 1000
 
-	locator = { name = "loc101" position = { 0 25 0 } rotation = { 0 90 0 } }
-	locator = { name = "loc102" position = { 0 -25 0 } rotation = { 0 -90 0 } }
+	locator = { name = "loc101" position = { 0 100 0 } rotation = { 0 90 0 } } #0 25 0
+	locator = { name = "loc102" position = { 0 -100 0 } rotation = { 0 -90 0 } } #0 -25 0
 	locator = { name = "loc103" position = { 0 0 0 } rotation = { 0 0 0 } }
 
 	attach = { loc101 = "kugelblitz_part_big_beam_entity" }

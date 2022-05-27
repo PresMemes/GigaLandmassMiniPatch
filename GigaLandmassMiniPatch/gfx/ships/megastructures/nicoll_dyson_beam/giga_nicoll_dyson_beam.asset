@@ -1,5 +1,11 @@
 @giga_ndb_scale = 1.5
 
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #########################################
 ### Nicoll Dyson Beam ###################
 #########################################
@@ -83,7 +89,7 @@ entity = {
 entity = {
 	name = "giga_ndb_phase1_construction_entity"
 	pdxmesh = "giga_dyson_frame_mesh"
-	scale = @giga_ndb_scale
+	scale = 9 #@giga_ndb_scale
 
 	meshsettings = {
 		name = "frame1Shape"
@@ -109,7 +115,7 @@ entity = {
 entity = {
 	name = "giga_ndb_phase2_construction_entity"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 9 #@giga_ndb_scale
 
 	locator = { name = "loc101" position = { 50 0 0 } rotation = { 60 0 0 } }
 	locator = { name = "loc102" position = { 50 0 0 } rotation = { 60 22.5 0 } }
@@ -132,7 +138,7 @@ entity = {
 entity = {
 	name = "giga_ndb_phase3_construction_entity"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 9 #@giga_ndb_scale
 
 	locator = { name = "loc109" position = { -7.5 0 0 } rotation = { 0 90 90 }	scale = 0.975 }
 	locator = { name = "loc111" position = { -125 0 0 } rotation = { 0 90 90 }	scale = 0.75 }
@@ -143,7 +149,7 @@ entity = {
 entity = {
 	name = "giga_ndb_phase4_construction_entity"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 9 #@giga_ndb_scale
 
 	locator = { name = "l10" position = { 110 0 0 } rotation = { 180 90 90 } scale = 0.95 }
 	locator = { name = "l11" position = { 210 0 0 } rotation = { 180 90 90 } scale = 0.70 }
@@ -218,6 +224,7 @@ entity = {
 entity = {
 	name = "giga_ndb_two_beam_entity"
 	cull_radius = 1000
+	scale = @effect_scale
 	locator = { name = "l01" position = { 65 215 0 }	rotation = { 150 90 90 }	scale = 40 }
 	locator = { name = "l02" position = { 65 -215 0 }	rotation = { 210 90 90 }	scale = 40 }
 	locator = { name = "l03" position = { 425 0 0 }		rotation = { 0 0 0 }		scale = 7.5 }
@@ -241,7 +248,7 @@ entity = { name = "giga_ndb_firing_8" cull_radius = 1000 scale = @giga_ndb_scale
 entity = {
 	name = "giga_ndb_firing_9"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 15 #@giga_ndb_scale
 
 	locator = { name = "m1"		position = { -485 0 0 }		rotation = { 0 90 90 }	scale = 100 }
 	locator = { name = "pew"	position = { -485 0 0 }		rotation = { 0 90 90 } }
@@ -255,7 +262,7 @@ entity = {
 entity = {
 	name = "giga_ndb_firing_10"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 15 #@giga_ndb_scale
 
 	locator = { name = "m1"		position = { -485 0 0 }		rotation = { 0 90 90 }	scale = 100 }
 	locator = { name = "pew"	position = { -485 0 0 }		rotation = { 0 90 90 } }
@@ -271,7 +278,7 @@ entity = {
 entity = {
 	name = "giga_ndb_firing_11"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 15 #@giga_ndb_scale
 
 	locator = { name = "m1"		position = { -485 0 0 }		rotation = { 0 90 90 }	scale = 100 }
 	locator = { name = "pew"	position = { -485 0 0 }		rotation = { 0 90 90 } }
@@ -292,7 +299,7 @@ entity = {
 entity = {
 	name = "giga_ndb_firing_12"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 15 #@giga_ndb_scale
 
 	locator = { name = "m1"		position = { -485 0 0 }		rotation = { 0 90 90 }	scale = 100 }
 	locator = { name = "pew"	position = { -485 0 0 }		rotation = { 0 90 90 } }
@@ -314,7 +321,7 @@ entity = {
 entity = {
 	name = "giga_ndb_firing_13"
 	cull_radius = 1000
-	scale = @giga_ndb_scale
+	scale = 15 #@giga_ndb_scale
 
 	locator = { name = "m1"		position = { -485 0 0 }		rotation = { 0 90 90 }	scale = 100 }
 	locator = { name = "pew"	position = { -485 0 0 }		rotation = { 0 90 90 } }

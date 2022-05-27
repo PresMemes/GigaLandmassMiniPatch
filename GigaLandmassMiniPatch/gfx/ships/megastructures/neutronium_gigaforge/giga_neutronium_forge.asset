@@ -1,4 +1,8 @@
-
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
 
 entity = {
 	name = "neutronium_gigaforge_1_entity"
@@ -13,7 +17,7 @@ entity = {
 	attach = { loc101 = "neutronium_gigaforge_core_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -29,7 +33,7 @@ entity = {
 	attach = { loc101 = "neutronium_gigaforge_core_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -51,7 +55,7 @@ entity = {
 	attach = { loc105 = "neutronium_ring_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -71,7 +75,7 @@ entity = {
 	attach = { loc105 = "neutronium_ring_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -88,7 +92,7 @@ entity = {
 	attach = { loc102 = "neutronium_drill_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -112,7 +116,7 @@ entity = {
 	attach = { loc105 = "neutronium_ring_entity" }
 
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {
@@ -177,7 +181,7 @@ entity = {
 	attach = { loc106 = "gigaforge_ruined_debris" }
 	attach = { loc107 = "gigaforge_ruined_debris" }
 
-	scale = 1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
+	scale = @star_scale #1	# change to increase or decrease distance between stars and rings, also effects planetary ring!
 }
 
 entity = {

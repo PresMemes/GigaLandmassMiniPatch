@@ -1,7 +1,13 @@
+@astroid_scale = 30
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "giga_psychic_beacon_p1_entity"
 	pdxmesh = "giga_psychic_beacon_p1_mesh"
-	scale = 6
+	scale = @planet_scale #6
 	cull_radius = 500
 	game_data = { emissive_recolor_crunch = 0 }
 }
@@ -9,7 +15,7 @@ entity = {
 entity = {
 	name = "giga_psychic_beacon_p2_entity"
 	pdxmesh = "giga_psychic_beacon_p2_mesh"
-	scale = 6
+	scale = @planet_scale #6
 	cull_radius = 500
 	game_data = { emissive_recolor_crunch = 0 }
 }
@@ -17,7 +23,7 @@ entity = {
 entity = {
 	name = "giga_psychic_beacon_p3_entity"
 	pdxmesh = "giga_psychic_beacon_p3_mesh"
-	scale = 6
+	scale = @planet_scale #6
 	cull_radius = 500
 
 	default_state = "idle"

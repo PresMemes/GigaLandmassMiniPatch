@@ -1,5 +1,11 @@
 # planet selection preview
 
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "giga_frameworld_preview_entity"
 	pdxmesh = "mammalian_01_orbital_station_frame_mesh"
