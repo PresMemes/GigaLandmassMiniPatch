@@ -33,4 +33,5 @@ NOTE: Sometimes, changing a planet's class via console (planet_class pc_flat_wor
   - I think this is mostly fine, but please check anyway.
 - Megastructure Scaling  
   - Ruined O-Class Dyson Spheres need to be rescaled? Test pls
-  - Birch World, and everything you can see in the Aeternum home system is done.
+  - Everything you can see in the Aeternum home system is done.
+  - I've gotten up to the EHOF
