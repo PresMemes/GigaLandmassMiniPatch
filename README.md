@@ -1,4 +1,5 @@
 # GigaLandmassMiniPatch
+Most of the stuff below is just for debugging purposes
 
 ## Load order
 ```
