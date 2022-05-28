@@ -1,0 +1,25 @@
+# Ruined Square World
+square_world_init_01 = {
+	class = "sc_k"
+	flags = { ruined_square_ring_system }
+	max_instances = 1
+
+	planet = {
+		class = star
+		orbit_distance = 0
+		size = 10
+		init_effect = { 
+			giga_field_debris = yes
+			save_global_event_target_as = squareworld_star 
+		}
+	}
+
+	init_effect = {
+		spawn_megastructure = { type = "r_square_world_ruined" orbit_angle = 0		orbit_distance = 58 }
+		spawn_megastructure = { type = "r_square_world_ruined" orbit_angle = 90		orbit_distance = 58 }
+		spawn_megastructure = { type = "r_square_world_ruined" orbit_angle = 180	orbit_distance = 58 }
+		spawn_megastructure = { type = "r_square_world_ruined" orbit_angle = 270	orbit_distance = 58 }
+		spawn_megastructure = { type = "r_square_world_hub" }
+		giga_field_system_debris = yes
+	}
+}

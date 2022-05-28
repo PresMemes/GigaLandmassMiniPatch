@@ -29,7 +29,7 @@ alderson_disk_1 = {
 		giga_remove_system_planets = yes
 		giga_remove_system_debris = yes
 		set_asteroid_belt = { radius = 0 }
-		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 0   orbit_distance = 124.75	owner = from } #178.75
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 0   orbit_distance = 124.75	owner = from } #178.75 #PM: Overwrites to stop the slices being in the wrong spots
 		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 45  orbit_distance = 126		owner = from } #180
 		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 90  orbit_distance = 124.75	owner = from } #178.75
 		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 135 orbit_distance = 126		owner = from } #180
