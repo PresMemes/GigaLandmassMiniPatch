@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "blokkat_prison_empty_entity"
 	pdxmesh = "giga_ascendant_01_habitat_frame_mesh"
@@ -6,7 +12,7 @@ entity = {
 	attach = { "habitat_main" = "giga_ascendant_01_nexus_stage_2" }
 	attach = { "habitat_main" = "giga_ascendant_01_nexus_stage_3" }
 			
-	scale = 2
+	scale = @planet_scale #2
 	
 	default_state = "idle"
 	state = { name = "idle" animation = "idle"
@@ -49,7 +55,7 @@ entity = {
 
 	attach = { "blokkat" = "blokkat_prisoner_entity" }
 
-	scale = 2
+	scale = @planet_scale #2
 	
 	default_state = "idle"
 	state = { name = "idle" animation = "idle"

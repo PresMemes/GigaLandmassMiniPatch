@@ -21,17 +21,18 @@ entity = {
 	}
 
 	locator = { name = planet }
-	locator = { name = planet2 rotation = { 10 0 0 } }
-	locator = { name = planet3 rotation = { 20 15 0 } }
-	locator = { name = planet4 rotation = { 30 0 20 } }
-	locator = { name = planet5 rotation = { 40 6 80 } }
-	locator = { name = planet6 rotation = { 50 90 30 } }
-	locator = { name = planet7 rotation = { 60 50 10 } }
+	locator = { name = planetray scale = 0.1 }
+	locator = { name = planet2 rotation = { 10 0 0 } scale = 0.1 }
+	locator = { name = planet3 rotation = { 20 15 0 } scale = 0.1 }
+	locator = { name = planet4 rotation = { 30 0 20 } scale = 0.1 }
+	locator = { name = planet5 rotation = { 40 6 80 } scale = 0.1 }
+	locator = { name = planet6 rotation = { 50 90 30 } scale = 0.1 }
+	locator = { name = planet7 rotation = { 60 50 10 } scale = 0.1 }
 	attach = { planet = "white_hole_rings_entity"  }
 	attach = { planet = "white_hole_grav_lens_entity" }
 	attach = { planet = "white_hole_grav_animation_entity" }
-	attach = { planet = "ehof_penta_rays_entity" }
-	attach = { planet = "ehof_hexa_rays_entity" }
+	attach = { planetray = "ehof_penta_rays_entity" }
+	attach = { planetray = "ehof_hexa_rays_entity" }
 	attach = { planet2 = "ehof_penta_rays_entity" }
 	attach = { planet2 = "ehof_hexa_rays_entity" }
 	attach = { planet3 = "ehof_penta_rays_entity" }
