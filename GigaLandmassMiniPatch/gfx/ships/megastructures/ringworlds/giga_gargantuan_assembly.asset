@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -549,6 +551,7 @@ entity = {
 	attach = { locator10 = "humanoid_01_gargantuan_gaia_habitable_entity" }
 	attach = { locator11 = "humanoid_01_gargantuan_gaia_habitable_entity" }
 	attach = { locator12 = "humanoid_01_gargantuan_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -571,6 +574,7 @@ entity = {
 	attach = { ringworld_south 		= "humanoid_01_gargantuan_quarter_entity" }
 	attach = { ringworld_west 		= "humanoid_01_gargantuan_quarter_entity" }
 	attach = { ringworld_east 		= "humanoid_01_gargantuan_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -619,6 +623,7 @@ entity = {
 	attach = { locator10 = "mammalian_01_gargantuan_construction_entity" }
 	attach = { locator11 = "mammalian_01_gargantuan_construction_entity" }
 	attach = { locator12 = "mammalian_01_gargantuan_construction_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -664,6 +669,7 @@ entity = {
 	attach = { locator10 = "mammalian_01_gargantuan_gaia_habitable_entity" }
 	attach = { locator11 = "mammalian_01_gargantuan_gaia_habitable_entity" }
 	attach = { locator12 = "mammalian_01_gargantuan_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -686,6 +692,7 @@ entity = {
 	attach = { ringworld_south 		= "mammalian_01_gargantuan_quarter_entity" }
 	attach = { ringworld_west 		= "mammalian_01_gargantuan_quarter_entity" }
 	attach = { ringworld_east 		= "mammalian_01_gargantuan_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################

@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -79,6 +81,7 @@ entity = {
 	attach = { locator7 = "behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -101,6 +104,7 @@ entity = {
 	attach = { ringworld_south 		= "behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -184,6 +188,7 @@ entity = {
 	attach = { locator7 = "arthropoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "arthropoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "arthropoid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -206,6 +211,7 @@ entity = {
 	attach = { ringworld_south 		= "arthropoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "arthropoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "arthropoid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -289,6 +295,7 @@ entity = {
 	attach = { locator7 = "avian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "avian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "avian_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -311,6 +318,7 @@ entity = {
 	attach = { ringworld_south 		= "avian_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "avian_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "avian_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -394,6 +402,7 @@ entity = {
 	attach = { locator7 = "fungoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "fungoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "fungoid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -416,6 +425,7 @@ entity = {
 	attach = { ringworld_south 		= "fungoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "fungoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "fungoid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -499,6 +509,7 @@ entity = {
 	attach = { locator7 = "humanoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "humanoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "humanoid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -521,6 +532,7 @@ entity = {
 	attach = { ringworld_south 		= "humanoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "humanoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "humanoid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -564,6 +576,7 @@ entity = {
 	attach = { locator7 = "mammalian_01_behemoth_construction_entity" }
 	attach = { locator8 = "mammalian_01_behemoth_construction_entity" }
 	attach = { locator9 = "mammalian_01_behemoth_construction_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -604,6 +617,7 @@ entity = {
 	attach = { locator7 = "mammalian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "mammalian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "mammalian_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -709,6 +723,7 @@ entity = {
 	attach = { locator7 = "molluscoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "molluscoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "molluscoid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -731,6 +746,7 @@ entity = {
 	attach = { ringworld_south 		= "molluscoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "molluscoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "molluscoid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -814,6 +830,7 @@ entity = {
 	attach = { locator7 = "plantoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "plantoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "plantoid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -836,6 +853,7 @@ entity = {
 	attach = { ringworld_south 		= "plantoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "plantoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "plantoid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -919,6 +937,7 @@ entity = {
 	attach = { locator7 = "reptilian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "reptilian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "reptilian_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -941,6 +960,7 @@ entity = {
 	attach = { ringworld_south 		= "reptilian_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "reptilian_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "reptilian_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -1024,6 +1044,7 @@ entity = {
 	attach = { locator7 = "lithoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "lithoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "lithoid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -1046,6 +1067,7 @@ entity = {
 	attach = { ringworld_south 		= "lithoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "lithoid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "lithoid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -1129,6 +1151,7 @@ entity = {
 	attach = { locator7 = "necroid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator8 = "necroid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator9 = "necroid_01_behemoth_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -1151,4 +1174,5 @@ entity = {
 	attach = { ringworld_south 		= "necroid_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "necroid_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "necroid_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }

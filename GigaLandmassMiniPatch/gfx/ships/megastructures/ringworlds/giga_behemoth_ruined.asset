@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Habitable #######################
 #####################################
@@ -155,6 +157,7 @@ entity = {
 	attach = { locator7 = "behemoth_ruined_habitable_entity" }
 	attach = { locator8 = "behemoth_ruined_habitable_entity" }
 	attach = { locator9 = "behemoth_ruined_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -175,4 +178,5 @@ entity = {
 	attach = { ringworld_south 		= "behemoth_ruined_quarter_entity" }
 	attach = { ringworld_west 		= "behemoth_ruined_quarter_entity" }
 	attach = { ringworld_east 		= "behemoth_ruined_quarter_entity" }
+	scale = @ringworld_scale
 }

@@ -1,7 +1,13 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "square_world_hub_station_entity"
 	pdxmesh = "sensor_station_mesh"
-	scale = 3
+	scale = @star_scale #3
 	locator = { name = "part1" }
 
 	default_state = "idle"
@@ -58,7 +64,7 @@ entity = {
 	name = "square_world_habitable_planet_01_entity"
 	pdxmesh = "squareworld_hab_mesh"
 	cull_radius = 500.0
-	scale = 1.2375
+	scale = @star_scale #1.2375
 
 	meshsettings = {
 		name = "pCube20Shape.002"
@@ -167,7 +173,7 @@ entity = {
 entity = {
 	name = "squareworld_segment_ruined_mega_entity"
 	cull_radius = 500
-	scale = 1.2375
+	scale = @star_scale #1.2375
 
 	locator = { name = "loc101" position = { -237.5 0 0 }	rotation = { 0 0 0 } }
 	locator = { name = "loc102" position = { 0 0 0 }		rotation = { 0 0 0 } }

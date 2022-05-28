@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -62,6 +64,7 @@ entity = {
 	attach = { locator2 = "gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -128,6 +131,7 @@ entity = {
 	attach = { locator2 = "arthropoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "arthropoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "arthropoid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -194,6 +198,7 @@ entity = {
 	attach = { locator2 = "avian_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "avian_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "avian_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -260,6 +265,7 @@ entity = {
 	attach = { locator2 = "fungoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "fungoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "fungoid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -326,6 +332,7 @@ entity = {
 	attach = { locator2 = "humanoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "humanoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "humanoid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -392,6 +399,7 @@ entity = {
 	attach = { locator2 = "mammalian_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "mammalian_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "mammalian_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -458,6 +466,7 @@ entity = {
 	attach = { locator2 = "molluscoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "molluscoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "molluscoid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -524,6 +533,7 @@ entity = {
 	attach = { locator2 = "plantoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "plantoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "plantoid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -590,6 +600,7 @@ entity = {
 	attach = { locator2 = "reptilian_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "reptilian_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "reptilian_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -656,6 +667,7 @@ entity = {
 	attach = { locator2 = "lithoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "lithoid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "lithoid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }
 
 #####################################
@@ -722,4 +734,5 @@ entity = {
 	attach = { locator2 = "necroid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator3 = "necroid_01_gargantuan_machine_habitable_entity" }
 	attach = { locator4 = "necroid_01_gargantuan_machine_habitable_entity" }
+    scale = @ringworld_scale
 }

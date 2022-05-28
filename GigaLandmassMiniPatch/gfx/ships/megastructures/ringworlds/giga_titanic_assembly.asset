@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -50,12 +52,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "titanic_tech_entity" }
 	attach = { locator2 = "titanic_tech_entity" }
@@ -63,6 +65,7 @@ entity = {
 	attach = { locator4 = "titanic_seam_entity" }
 	attach = { locator5 = "titanic_gaia_habitable_entity" }
 	attach = { locator6 = "titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -85,6 +88,7 @@ entity = {
 	attach = { ringworld_south 		= "titanic_quarter_entity" }
 	attach = { ringworld_west 		= "titanic_quarter_entity" }
 	attach = { ringworld_east 		= "titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -139,12 +143,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "arthropoid_01_titanic_tech_entity" }
 	attach = { locator2 = "arthropoid_01_titanic_tech_entity" }
@@ -152,6 +156,7 @@ entity = {
 	attach = { locator4 = "arthropoid_01_titanic_seam_entity" }
 	attach = { locator5 = "arthropoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "arthropoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -174,6 +179,7 @@ entity = {
 	attach = { ringworld_south 		= "arthropoid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "arthropoid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "arthropoid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -228,12 +234,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "avian_01_titanic_tech_entity" }
 	attach = { locator2 = "avian_01_titanic_tech_entity" }
@@ -241,6 +247,7 @@ entity = {
 	attach = { locator4 = "avian_01_titanic_seam_entity" }
 	attach = { locator5 = "avian_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "avian_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -263,6 +270,7 @@ entity = {
 	attach = { ringworld_south 		= "avian_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "avian_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "avian_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -317,12 +325,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "fungoid_01_titanic_tech_entity" }
 	attach = { locator2 = "fungoid_01_titanic_tech_entity" }
@@ -330,6 +338,7 @@ entity = {
 	attach = { locator4 = "fungoid_01_titanic_seam_entity" }
 	attach = { locator5 = "fungoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "fungoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -341,10 +350,10 @@ entity = {
 		emissive_recolor_crunch = 50.0
 	}
 
-	locator = { name = "ringworld_north"	position = { 900	0	0		} rotation = { 90	0	0 } }
-	locator = { name = "ringworld_south"	position = { -900	0	0		} rotation = { -90	0	0 } }
-	locator = { name = "ringworld_west"		position = { 0		0	900		} rotation = { 0	0	0 } }
-	locator = { name = "ringworld_east" 	position = { 0		0	-900	} rotation = { 180	0	0 } }
+	locator = { name = "ringworld_north"	position = { 900	0	0		} rotation = { 90	0	0 }  }
+	locator = { name = "ringworld_south"	position = { -900	0	0		} rotation = { -90	0	0 }  }
+	locator = { name = "ringworld_west"		position = { 0		0	900		} rotation = { 0	0	0 }  }
+	locator = { name = "ringworld_east" 	position = { 0		0	-900	} rotation = { 180	0	0 }  }
 
 	state = { name = "construction" }
 
@@ -352,6 +361,7 @@ entity = {
 	attach = { ringworld_south 		= "fungoid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "fungoid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "fungoid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -419,6 +429,7 @@ entity = {
 	attach = { locator4 = "humanoid_01_titanic_seam_entity" }
 	attach = { locator5 = "humanoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "humanoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -441,6 +452,7 @@ entity = {
 	attach = { ringworld_south 		= "humanoid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "humanoid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "humanoid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -476,6 +488,7 @@ entity = {
 	attach = { locator4 = "mammalian_01_titanic_construction_entity" }
 	attach = { locator5 = "mammalian_01_titanic_construction_entity" }
 	attach = { locator6 = "mammalian_01_titanic_construction_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -508,6 +521,7 @@ entity = {
 	attach = { locator4 = "mammalian_01_titanic_seam_entity" }
 	attach = { locator5 = "mammalian_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "mammalian_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -530,6 +544,7 @@ entity = {
 	attach = { ringworld_south 		= "mammalian_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "mammalian_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "mammalian_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -584,12 +599,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "molluscoid_01_titanic_tech_entity" }
 	attach = { locator2 = "molluscoid_01_titanic_tech_entity" }
@@ -597,6 +612,7 @@ entity = {
 	attach = { locator4 = "molluscoid_01_titanic_seam_entity" }
 	attach = { locator5 = "molluscoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "molluscoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -619,6 +635,7 @@ entity = {
 	attach = { ringworld_south 		= "molluscoid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "molluscoid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "molluscoid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -673,12 +690,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "plantoid_01_titanic_tech_entity" }
 	attach = { locator2 = "plantoid_01_titanic_tech_entity" }
@@ -686,6 +703,7 @@ entity = {
 	attach = { locator4 = "plantoid_01_titanic_seam_entity" }
 	attach = { locator5 = "plantoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "plantoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -708,6 +726,7 @@ entity = {
 	attach = { ringworld_south 		= "plantoid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "plantoid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "plantoid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -762,12 +781,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "reptilian_01_titanic_tech_entity" }
 	attach = { locator2 = "reptilian_01_titanic_tech_entity" }
@@ -775,6 +794,7 @@ entity = {
 	attach = { locator4 = "reptilian_01_titanic_seam_entity" }
 	attach = { locator5 = "reptilian_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "reptilian_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -797,6 +817,7 @@ entity = {
 	attach = { ringworld_south 		= "reptilian_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "reptilian_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "reptilian_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -851,12 +872,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "lithoid_01_titanic_tech_entity" }
 	attach = { locator2 = "lithoid_01_titanic_tech_entity" }
@@ -864,6 +885,7 @@ entity = {
 	attach = { locator4 = "lithoid_01_titanic_seam_entity" }
 	attach = { locator5 = "lithoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "lithoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -886,6 +908,7 @@ entity = {
 	attach = { ringworld_south 		= "lithoid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "lithoid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "lithoid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -940,12 +963,12 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 }  }
+	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 }  }
+	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 }  }
+	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 }  }
+	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 }  }
+	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 }  }
 
 	attach = { locator1 = "necroid_01_titanic_tech_entity" }
 	attach = { locator2 = "necroid_01_titanic_tech_entity" }
@@ -953,6 +976,7 @@ entity = {
 	attach = { locator4 = "necroid_01_titanic_seam_entity" }
 	attach = { locator5 = "necroid_01_titanic_gaia_habitable_entity" }
 	attach = { locator6 = "necroid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -975,4 +999,5 @@ entity = {
 	attach = { ringworld_south 		= "necroid_01_titanic_quarter_entity" }
 	attach = { ringworld_west 		= "necroid_01_titanic_quarter_entity" }
 	attach = { ringworld_east 		= "necroid_01_titanic_quarter_entity" }
+	scale = @ringworld_scale
 }

@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "atmo_vacuum_ring_piece_entity"
 	pdxmesh = "fallen_empire_01_warship_small_mesh"
@@ -96,7 +102,7 @@ entity = {
 
 	attach = { "loc101" = "atmo_vacuum_ring_six_entity" }
 
-	scale = 4
+	scale = 25 #4
 }
 
 ###EFFECTS OFF###
@@ -201,7 +207,7 @@ entity = {
 
 	attach = { "loc101" = "atmo_vacuum_ring_six_justring_entity" }
 
-	scale = 4
+	scale = 25 #4
 }
 
 ###JUST NOZZLES###

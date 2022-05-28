@@ -1,3 +1,4 @@
+@ringworld_scale = 10.1
 #####################################
 ### Standard ########################
 #####################################
@@ -27,6 +28,7 @@ entity = {
 		texture_specular = "ringworld_tech_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -104,6 +106,7 @@ entity = {
 		event = { time = 17.5	node = "weld_10" particle = "construction_bot_welding_effect" sound = { soundeffect = "welding_bot" } }
 		event = { time = 19.16	node = "weld_10" particle = "construction_bot_welding_effect" sound = { soundeffect = "welding_bot" } }
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -135,6 +138,7 @@ entity = {
 		texture_specular = "ringworld_tech_arthropoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -166,6 +170,7 @@ entity = {
 		texture_specular = "ringworld_tech_avian_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -197,6 +202,7 @@ entity = {
 		texture_specular = "ringworld_tech_fungoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -228,6 +234,7 @@ entity = {
 		texture_specular = "ringworld_tech_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -259,6 +266,7 @@ entity = {
 		texture_specular = "ringworld_tech_mammalian_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -290,6 +298,7 @@ entity = {
 		texture_specular = "ringworld_tech_molluscoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -321,6 +330,7 @@ entity = {
 		texture_specular = "ringworld_tech_plantoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -352,6 +362,7 @@ entity = {
 		texture_specular = "ringworld_tech_reptilian_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -383,6 +394,7 @@ entity = {
 		texture_specular = "ringworld_tech_lithoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -414,4 +426,5 @@ entity = {
 		texture_specular = "ringworld_tech_necroid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }

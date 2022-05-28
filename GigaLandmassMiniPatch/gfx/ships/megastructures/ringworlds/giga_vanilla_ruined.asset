@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Habitable #######################
 #####################################
@@ -14,6 +16,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" state_time = 5 }
 	state = { name = "construction" }
+	#scale = @ringworld_scale
 }
 
 #####################################
@@ -32,6 +35,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" state_time = 5 }
 	state = { name = "construction" }
+	#scale = @ringworld_scale
 }
 
 #####################################
@@ -50,6 +54,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" state_time = 5 }
 	state = { name = "construction" }
+	#scale = @ringworld_scale
 }
 
 #####################################
@@ -75,6 +80,7 @@ entity = {
 	attach = { locator1 = "vanilla_ruined_tech_entity" }
 	attach = { locator2 = "vanilla_ruined_seam_entity" }
 	attach = { locator3 = "vanilla_ruined_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -97,4 +103,5 @@ entity = {
 	attach = { ringworld_south 		= "vanilla_ruined_quarter_entity" }
 	attach = { ringworld_west 		= "vanilla_ruined_quarter_entity" }
 	attach = { ringworld_east 		= "vanilla_ruined_quarter_entity" }
+	scale = @ringworld_scale
 }

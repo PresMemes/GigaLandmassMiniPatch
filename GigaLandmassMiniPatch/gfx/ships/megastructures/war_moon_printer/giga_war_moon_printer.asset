@@ -163,19 +163,20 @@ entity = {
 	attach = { "loc102" = "war_moon_printer_warmoon_entity" }
 	attach = { "loc104" = "war_moon_printer_beam_entity" }
 
-	scale = 1
+	scale = 2
 }
 
 entity = {
 	name = "war_moon_printer_stage_1_entity"
 	cull_radius = 1000
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+	scale = 2
 
 	default_state = "idle"
 	state = { name = idle animation = idle }
 	locator = { name = "loc103" position = { 0 0 25 } rotation = { 0 0 0 } }
 	attach = { "loc103" = "war_moon_printer_core_entity" }
-	scale = 1
+	scale = 2
 }
 
 entity = {
@@ -186,7 +187,7 @@ entity = {
 
 	attach = { "loc101" = "war_moon_printer_structure_tilted_entity" }
 
-	scale = 1
+	scale = 2
 }
 
 entity = {
@@ -204,7 +205,7 @@ entity = {
 	attach = { "loc103" = "war_moon_printer_core_entity" }
 	attach = { "loc104" = "war_moon_printer_beam_entity" }
 
-	scale = 1
+	scale = 2
 }
 
 ###FROM THE NOW DEFUNCT "MEGASTRUCTURES" MOD, USED WITH PERMISSION!###

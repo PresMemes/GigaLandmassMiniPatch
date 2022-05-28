@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -58,6 +60,7 @@ entity = {
 
 	attach = { locator1 = "titanic_gaia_habitable_entity" }
 	attach = { locator2 = "titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -120,6 +123,7 @@ entity = {
 
 	attach = { locator1 = "arthropoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "arthropoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -158,6 +162,7 @@ entity = {
 	}
 
 	attach = { root = "titanic_clouds_entity" }
+    
 }
 
 entity = {
@@ -182,6 +187,7 @@ entity = {
 
 	attach = { locator1 = "avian_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "avian_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -220,6 +226,7 @@ entity = {
 	}
 
 	attach = { root = "titanic_clouds_entity" }
+    
 }
 
 entity = {
@@ -244,6 +251,7 @@ entity = {
 
 	attach = { locator1 = "fungoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "fungoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -306,6 +314,7 @@ entity = {
 
 	attach = { locator1 = "humanoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "humanoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -368,6 +377,7 @@ entity = {
 
 	attach = { locator1 = "mammalian_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "mammalian_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -430,6 +440,7 @@ entity = {
 
 	attach = { locator1 = "molluscoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "molluscoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -492,6 +503,7 @@ entity = {
 
 	attach = { locator1 = "plantoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "plantoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -554,6 +566,7 @@ entity = {
 
 	attach = { locator1 = "reptilian_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "reptilian_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -616,6 +629,7 @@ entity = {
 
 	attach = { locator1 = "lithoid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "lithoid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -678,4 +692,5 @@ entity = {
 
 	attach = { locator1 = "necroid_01_titanic_gaia_habitable_entity" }
 	attach = { locator2 = "necroid_01_titanic_gaia_habitable_entity" }
+	scale = @ringworld_scale
 }

@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #################################################################################################################
 # Gas Terraform
 #################################################################################################################
@@ -11,7 +17,7 @@ entity = {
 	attach = { loc101 = "giga_ringworld_seam_entity_01_full_entity" }
 	attach = { loc102 = "giga_ringworld_seam_entity_01_full_entity" }
 
-	scale = 0.21875
+	scale = 2 #0.21875
 }
 
 entity = {

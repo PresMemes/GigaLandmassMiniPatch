@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Habitable #######################
 #####################################
@@ -141,6 +143,7 @@ entity = {
 	attach = { locator4 = "titanic_ruined_seam_entity" }
 	attach = { locator5 = "titanic_ruined_habitable_entity" }
 	attach = { locator6 = "titanic_ruined_habitable_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -161,4 +164,5 @@ entity = {
 	attach = { ringworld_south 		= "titanic_ruined_quarter_entity" }
 	attach = { ringworld_west 		= "titanic_ruined_quarter_entity" }
 	attach = { ringworld_east 		= "titanic_ruined_quarter_entity" }
+	scale = @ringworld_scale
 }

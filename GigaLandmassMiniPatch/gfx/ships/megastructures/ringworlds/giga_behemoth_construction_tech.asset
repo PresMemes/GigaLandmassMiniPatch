@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -53,6 +55,7 @@ entity = {
 	attach = { locator1 = "behemoth_tech_entity" }
 	attach = { locator2 = "behemoth_tech_entity" }
 	attach = { locator3 = "behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 entity = {
@@ -187,6 +190,7 @@ entity = {
 	attach = { locator1 = "arthropoid_01_behemoth_tech_entity" }
 	attach = { locator2 = "arthropoid_01_behemoth_tech_entity" }
 	attach = { locator3 = "arthropoid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -244,6 +248,7 @@ entity = {
 	attach = { locator1 = "avian_01_behemoth_tech_entity" }
 	attach = { locator2 = "avian_01_behemoth_tech_entity" }
 	attach = { locator3 = "avian_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -301,6 +306,7 @@ entity = {
 	attach = { locator1 = "fungoid_01_behemoth_tech_entity" }
 	attach = { locator2 = "fungoid_01_behemoth_tech_entity" }
 	attach = { locator3 = "fungoid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -358,6 +364,7 @@ entity = {
 	attach = { locator1 = "humanoid_01_behemoth_tech_entity" }
 	attach = { locator2 = "humanoid_01_behemoth_tech_entity" }
 	attach = { locator3 = "humanoid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -415,6 +422,7 @@ entity = {
 	attach = { locator1 = "mammalian_01_behemoth_tech_entity" }
 	attach = { locator2 = "mammalian_01_behemoth_tech_entity" }
 	attach = { locator3 = "mammalian_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -472,6 +480,7 @@ entity = {
 	attach = { locator1 = "molluscoid_01_behemoth_tech_entity" }
 	attach = { locator2 = "molluscoid_01_behemoth_tech_entity" }
 	attach = { locator3 = "molluscoid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -529,6 +538,7 @@ entity = {
 	attach = { locator1 = "plantoid_01_behemoth_tech_entity" }
 	attach = { locator2 = "plantoid_01_behemoth_tech_entity" }
 	attach = { locator3 = "plantoid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -586,6 +596,7 @@ entity = {
 	attach = { locator1 = "reptilian_01_behemoth_tech_entity" }
 	attach = { locator2 = "reptilian_01_behemoth_tech_entity" }
 	attach = { locator3 = "reptilian_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -643,6 +654,7 @@ entity = {
 	attach = { locator1 = "lithoid_01_behemoth_tech_entity" }
 	attach = { locator2 = "lithoid_01_behemoth_tech_entity" }
 	attach = { locator3 = "lithoid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -700,4 +712,5 @@ entity = {
 	attach = { locator1 = "necroid_01_behemoth_tech_entity" }
 	attach = { locator2 = "necroid_01_behemoth_tech_entity" }
 	attach = { locator3 = "necroid_01_behemoth_tech_entity" }
+	scale = @ringworld_scale
 }

@@ -1,3 +1,4 @@
+@ringworld_scale = 10.1
 #####################################
 ### Standard ########################
 #####################################
@@ -32,6 +33,7 @@ entity = {
 		texture_specular = "ringworld_seam_arthropoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -68,6 +70,7 @@ entity = {
 		texture_specular = "ringworld_seam_arthropoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -104,6 +107,7 @@ entity = {
 		texture_specular = "ringworld_seam_avian_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -140,6 +144,7 @@ entity = {
 		texture_specular = "ringworld_seam_fungoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -176,6 +181,7 @@ entity = {
 		texture_specular = "ringworld_seam_arthropoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -212,6 +218,7 @@ entity = {
 		texture_specular = "ringworld_seam_mammalian_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -248,6 +255,7 @@ entity = {
 		texture_specular = "ringworld_seam_molluscoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -284,6 +292,7 @@ entity = {
 		texture_specular = "ringworld_seam_plantoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -320,6 +329,7 @@ entity = {
 		texture_specular = "ringworld_seam_reptilian_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -356,6 +366,7 @@ entity = {
 		texture_specular = "ringworld_seam_lithoid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -392,4 +403,5 @@ entity = {
 		texture_specular = "ringworld_seam_necroid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale
 }

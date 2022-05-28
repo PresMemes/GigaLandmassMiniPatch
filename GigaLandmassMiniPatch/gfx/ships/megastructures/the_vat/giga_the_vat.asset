@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 entity = {
 	name = "giga_the_vat_p1_entity"
 	scale = 1
@@ -86,14 +92,14 @@ entity = {
 
 entity = {
 	name = "giga_the_vat_construction_p1_entity"
-	scale = 1
+	scale = @planet_scale #1
 	locator = { name = center position = { 0 0 0 } }
 	attach = { center =	"giga_the_vat_06_entity" }
 }
 
 entity = {
 	name = "giga_the_vat_construction_p2_entity"
-	scale = 1
+	scale = @planet_scale #1
 	locator = { name = center position = { 0 0 0 } }
 	attach = { center =	"giga_the_vat_01_entity" }
 	attach = { center =	"giga_the_vat_04_entity" }
@@ -101,7 +107,7 @@ entity = {
 
 entity = {
 	name = "giga_the_vat_construction_p3_entity"
-	scale = 1
+	scale = @planet_scale #1
 	locator = { name = center position = { 0 0 0 } }
 	attach = { center =	"giga_the_vat_02_entity" }
 	attach = { center =	"giga_the_vat_07_entity" }
@@ -109,7 +115,7 @@ entity = {
 
 entity = {
 	name = "giga_the_vat_construction_p4_entity"
-	scale = 1
+	scale = @planet_scale #1
 	locator = { name = center position = { 0 0 0 } }
 	attach = { center =	"giga_the_vat_03_entity" }
 	attach = { center =	"giga_the_vat_05_entity" }

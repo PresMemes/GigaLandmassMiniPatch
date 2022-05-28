@@ -1,3 +1,5 @@
+@ringworld_scale = 10.1
+
 #####################################
 ### Standard ########################
 #####################################
@@ -34,6 +36,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -72,6 +75,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -110,6 +114,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -148,6 +153,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -186,6 +192,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -224,6 +231,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -262,6 +270,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -300,6 +309,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -338,6 +348,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -376,6 +387,7 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################
@@ -414,4 +426,5 @@ entity = {
 	}
 
 	attach = { root = "vanilla_clouds_entity" }
+	scale = @ringworld_scale
 }

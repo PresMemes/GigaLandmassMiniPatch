@@ -1,3 +1,9 @@
+@astroid_scale = 3.0
+@effect_scale = 7.0
+@planet_scale = 7.0
+@ringworld_scale = 9.85
+@star_scale = 12.0
+
 #################################################################################################################
 # Toxic Terraform
 #################################################################################################################
@@ -24,7 +30,7 @@ entity = {
 	attach = { loc102 = "giga_planetbuilt_ring_entity" }
 	attach = { loc103 = "giga_planetbuilt_ring_entity" }
 
-	scale = 1.
+	scale = @planet_scale #1
 }
 
 entity = {
@@ -56,7 +62,7 @@ entity = {
 	attach = { loc105 = "atmo_purifier_poles_entity" }
 	attach = { loc106 = "atmo_purifier_poles_entity" }
 
-	scale = 1.
+	scale = @planet_scale #1.
 }
 
 entity = {
