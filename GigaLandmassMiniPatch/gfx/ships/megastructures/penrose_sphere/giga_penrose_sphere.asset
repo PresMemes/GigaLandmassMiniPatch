@@ -1,13 +1,14 @@
 @astroid_scale = 3.0
 @effect_scale = 7.0
 @planet_scale = 7.0
-@ringworld_scale = 9.85
+@ringworld_scale = 10.1
 @star_scale = 12.0
 
 entity = {
 	name = "penrose_entity"
 	pdxmesh = "ringworld_construction_mesh"
 	cull_radius = 9999
+	scale = @ringworld_scale
 
 	meshsettings = {
 		name = "polySurface128Shape"
@@ -27,9 +28,9 @@ entity = {
 		shader = "PdxMeshTerra"
 	}
 
-	locator = { name = "locator1" position = { -450	0	-450 }		rotation = { -90 0 0 } }
+	locator = { name = "locator1" position = { -450 0	-450 }		rotation = { -90 0 0 } scale = 0.1 }
 	locator = { name = "locator2" position = { -225	0	-60.289 }	rotation = { -30 0 0 } }
-	locator = { name = "locator3" position = {  225	0	-60.289 }	rotation = { 30 0 0 } }
+	locator = { name = "locator3" position = {  225	0	-60.289}	rotation = { 30 0 0 } }
 
 	attach = { locator1 = "giga_ringworld_3x_seams_entity" }
 	attach = { locator2 = "vanilla_construction_entity" }
@@ -39,6 +40,7 @@ entity = {
 entity = {
 	name = "penrose_sphere_ringworld_01_entity"
 	pdxmesh = "giga_vanilla_habitable_mesh"
+	scale = @ringworld_scale
 	cull_radius = 500.0
 	game_data = {
 		size = 50
@@ -74,9 +76,9 @@ entity = {
 	}
 
 	locator = { name = "locator0" position = { 0	0	0 }			rotation = { 0 0 0 } }
-	locator = { name = "locator1" position = { -452	0	-454 }		rotation = { -90 0 0 } }
-	locator = { name = "locator2" position = { -225	0	-60.289 }	rotation = { -30 0 0 } }
-	locator = { name = "locator3" position = {  225	0	-60.289 }	rotation = { 30 0 0 } }
+	locator = { name = "locator1" position = { -452	0	-454 }		rotation = { -90 0 0 } scale = 0.1 }
+	locator = { name = "locator2" position = { -225	0	-60.289 }	rotation = { -30 0 0 } scale = 0.1 }
+	locator = { name = "locator3" position = {  225	0	-60.289 }	rotation = { 30 0 0 } scale = 0.1 }
 
 	attach = { root = "vanilla_clouds_entity" }
 	attach = { locator0 = "giga_ringworld_habitable_entity_01_clouds_entity" }
@@ -89,6 +91,7 @@ entity = {
 	name = "penrose_link_entity"
 	pdxmesh = "giga_vanilla_tech_mesh"
 	cull_radius = 500.0
+	scale = @ringworld_scale
 	game_data = {
 		size = 50
 		shader_type = ship
@@ -112,8 +115,8 @@ entity = {
 		shader = "PdxMeshTerra"
 	}
 
-	locator = { name = "locator1" position = { -225	0	-60.289	} rotation = { -30 0 0 } }
-	locator = { name = "locator2" position = {  225	0	-60.289	} rotation = { 30 0 0 } }
+	locator = { name = "locator1" position = { -225	0	-60.289	} rotation = { -30 0 0 } scale = 0.1 }
+	locator = { name = "locator2" position = {  225	0	-60.289	} rotation = { 30 0 0 } scale = 0.1 }
 	attach = { locator1 = "vanilla_gaia_habitable_entity" }
 	attach = { locator2 = "vanilla_gaia_habitable_entity" }
 }
@@ -365,7 +368,7 @@ entity = {
 	}
 
 	locator = { name = "root"				position = { 0		0	0		} rotation = { 0	0	0 } }
-	locator = { name = "star"				position = { 0		0	0		} rotation = { 0	0	0 }	scale = 15 }
+	locator = { name = "star"				position = { 0		0	0		} rotation = { 0	0	0 } scale = 15 }
 	locator = { name = "ringworld_west"		position = { 0		0	450		} rotation = { 0	0	0 } }
 	locator = { name = "ringworld_east" 	position = { 0		0	-450	} rotation = { 180	0	0 } }
 	attach = { star 			= "black_hole_entity" }

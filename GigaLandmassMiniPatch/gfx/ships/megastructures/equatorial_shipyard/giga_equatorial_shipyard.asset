@@ -97,7 +97,7 @@ entity = {
 	attach = { "loc101" = "fixed_planetary_ring_inner_scaffold_small_entity" }
 	attach = { "loc102" = "fixed_planetary_ring_inner_scaffold_big_entity" }
 
-	scale = @planet_scale #1
+	scale = 0.39 #1 PM: Why is this so damn specific??? why isn't 1 good enough huh?
 }
 
 entity = {
@@ -158,7 +158,7 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
 	}
 
-	scale = @planet_scale #0.25
+	scale = 1 #0.25
 }
 
 #the only difference between these and a normal entity is that these reference larger rings
@@ -183,7 +183,7 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
 	}
 
-	scale = 0.25
+	scale = 1 #0.25
 }
 
 entity = {
@@ -196,7 +196,7 @@ entity = {
 	attach = { "loc101" = "planetary_ring_game_01_entity" }
 	attach = { "loc102" = "big_planetary_ring_game_01_entity" }
 
-	scale = @planet_scale #1
+	scale = 1
 }
 
 entity = {
