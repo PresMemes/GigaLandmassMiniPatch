@@ -419,7 +419,7 @@ entity = {
 entity = {
 	name = "giga_ndb_gate_closed_entity"
 	cull_radius = 1000
-	scale = 0.4
+	scale = 1 #0.4
 
 	locator = { name = "loc101" position = { 0 0 0 }	rotation = { 0 90 0 } }
 	locator = { name = "loc102" position = { 0 0 -15 }	rotation = { 0 90 0 } }
@@ -436,7 +436,7 @@ entity = {
 entity = {
 	name = "giga_ndb_gate_open_entity"
 	cull_radius = 1000
-	scale = 0.4
+	scale = 1 #0.4
 
 	locator = { name = "loc101" position = { 0 0 0 }	rotation = { 0 90 0 } }
 	locator = { name = "loc102" position = { 0 0 -15 }	rotation = { 0 90 0 } }
