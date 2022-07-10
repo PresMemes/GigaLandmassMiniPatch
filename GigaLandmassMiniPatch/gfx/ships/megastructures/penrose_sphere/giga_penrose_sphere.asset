@@ -377,10 +377,22 @@ entity = {
 	attach = { ringworld_east 	= "penrose_sphere_ringworld_01_entity" }
 }
 
-
-
-
-
-
-
-
+entity = { #PM: I live in Spain without the S, also why is it oFF CENTER
+	name = "penrose_relic_entity"
+	pdxmesh = "dyson_sphere_destroyed_mesh"
+	scale = 32
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 10
+		start_event = { trigger_once = yes sound = { soundeffect = "dyson_sphere_destroyed" stop_on_state_change = yes } }
+	}
+	
+	meshsettings = {
+		name = "bodyShape"
+		index = 0
+		texture_diffuse = "dyson_sphere_destroyed_01_diffuse.dds"
+		texture_normal = "dyson_sphere_destroyed_01_normal.dds"
+		texture_specular = "dyson_sphere_destroyed_01_specular.dds"
+		shader = "PdxMeshShip"
+	}
+}
