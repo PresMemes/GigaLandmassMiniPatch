@@ -1,0 +1,40 @@
+blokkat_shield_killer_1 = { #PM: Need to make the black hole MUCH smaller
+	entity = "planck_synth_1_entity"
+	construction_entity = "planck_synth_1_entity"
+	portrait = "GFX_megastructure_blokkat_shieldkiller"
+	upgrade_from = { blokkat_shield_killer_0 }
+
+	build_time = 7200
+	resources = {
+		category = giga_gigastructures
+		cost = { 
+			alloys = 200000
+			energy = 100000
+			unity = @giga_tera_unity_cost
+		}
+		upkeep = { 
+			energy = 500
+			alloys = 500
+		}
+	}
+
+	possible = {
+		from = {
+			has_technology = giga_tech_blokkat_mega_stage_1
+		}
+	}
+
+	ai_weight = { factor = 10 } # If we can build it, we will build it
+	on_build_complete = {
+		save_event_target_as = giga_system
+		fromfrom.planet = { 
+			save_event_target_as = giga_planet 
+			change_pc = pc_black_hole
+			set_planet_size = 5 #PM: This a good size, the construction looks a bit scuffed but oh well.
+		}
+		from = { country_event = { id = giga_blokkat.30682 } }	# Notification
+		giga_remove_system_planets = yes
+		giga_remove_system_debris = yes
+		set_asteroid_belt = { radius = 0 }
+	}
+}
