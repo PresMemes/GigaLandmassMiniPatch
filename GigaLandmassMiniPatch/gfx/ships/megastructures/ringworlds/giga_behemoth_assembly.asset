@@ -629,10 +629,10 @@ entity = {
 		emissive_recolor_crunch = 50.0
 	}
 
-	locator = { name = "ringworld_north"	position = { 1350	0	0		} rotation = { 90	0	0 } }
-	locator = { name = "ringworld_south"	position = { -1350	0	0		} rotation = { -90	0	0 } }
-	locator = { name = "ringworld_west"		position = { 0		0	1350	} rotation = { 0	0	0 } }
-	locator = { name = "ringworld_east" 	position = { 0		0	-1350	} rotation = { 180	0	0 } }
+	locator = { name = "ringworld_north"	position = { 1350	0	0		} rotation = { 90	0	0 } scale = 0.1 }
+	locator = { name = "ringworld_south"	position = { -1350	0	0		} rotation = { -90	0	0 } scale = 0.1 }
+	locator = { name = "ringworld_west"		position = { 0		0	1350	} rotation = { 0	0	0 } scale = 0.1 }
+	locator = { name = "ringworld_east" 	position = { 0		0	-1350	} rotation = { 180	0	0 } scale = 0.1 }
 
 	state = { name = "construction" }
 
@@ -640,6 +640,7 @@ entity = {
 	attach = { ringworld_south 		= "mammalian_01_behemoth_quarter_entity" }
 	attach = { ringworld_west 		= "mammalian_01_behemoth_quarter_entity" }
 	attach = { ringworld_east 		= "mammalian_01_behemoth_quarter_entity" }
+	scale = @ringworld_scale
 }
 
 #####################################

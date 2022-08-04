@@ -681,10 +681,10 @@ entity = {
 		emissive_recolor_crunch = 50.0
 	}
 
-	locator = { name = "ringworld_north"	position = { 1800	0	0		} rotation = { 90	0	0 } }
-	locator = { name = "ringworld_south"	position = { -1800	0	0		} rotation = { -90	0	0 } }
-	locator = { name = "ringworld_west"		position = { 0		0	1800	} rotation = { 0	0	0 } }
-	locator = { name = "ringworld_east" 	position = { 0		0	-1800	} rotation = { 180	0	0 } }
+	locator = { name = "ringworld_north"	position = { 1800	0	0		} rotation = { 90	0	0 } scale = 0.1 }
+	locator = { name = "ringworld_south"	position = { -1800	0	0		} rotation = { -90	0	0 } scale = 0.1 }
+	locator = { name = "ringworld_west"		position = { 0		0	1800	} rotation = { 0	0	0 } scale = 0.1 }
+	locator = { name = "ringworld_east" 	position = { 0		0	-1800	} rotation = { 180	0	0 } scale = 0.1 }
 
 	state = { name = "construction" }
 
