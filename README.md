@@ -8,7 +8,7 @@ Miniatures
 Gigastructural Engineering & More (3.4)
 Gigastructures - Landmass - Miniatures patch
 ```
-Or something like that  
+Or something like that. The patch must ALWAYS go below Gigastructures.
 
 Put `GigaLandmassMiniPatch` into your `Documents\Paradox Interactive\Stellaris\mods` folder and Irony should detect it. (Or your custom mod folder if you have one set up)
 
