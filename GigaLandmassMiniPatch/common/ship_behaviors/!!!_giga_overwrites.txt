@@ -168,6 +168,7 @@ ship_behavior = {
 	passive_move_pattern = stay_at_range
 }
 
+
 ship_behavior = {
 	name = "giga_blokkazoi"
 	preferred_attack_range = 5
