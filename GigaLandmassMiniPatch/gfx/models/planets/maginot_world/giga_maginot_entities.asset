@@ -506,7 +506,6 @@ entity = {
 	locator = { name = "root" position = { 0 0 0 } }
 	
 	scale = 8.15 #1.15
-	#scale = @effect_scale
 }
 
 ################# RINGS #################
@@ -851,13 +850,13 @@ entity = {
 	name = "pc_giga_maginot_world_main_features_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 	
-	scale = 7.5
+	scale = @planet_scale #1 #PM: I don't understand why the goddamn construction enity will NOT SCALE REEEEEEEEEEEEEE
 
 	# Rings
 	locator = { name = "root"  rotation = { 0 0 0 } }
 	locator = { name = "root2" rotation = { 0 0 0 } }
 	# Surface greebles stolen from dyson sphere frame
-	locator = { name = "greebles" rotation = { 0 0 0 } }
+	locator = { name = "greebles" rotation = { 0 0 0 } } 
 	
 	# Rings
 	attach = { root = "pc_giga_maginot_world_inner_planetary_ring_complete_entity" }
@@ -872,7 +871,7 @@ entity = {
 	name = "pc_giga_maginot_world_full_features_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 	
-	scale = 7.5
+	scale = @planet_scale #1
 
 	# Rings
 	locator = { name = "root"  rotation = { 0 0 0 } }
@@ -928,6 +927,7 @@ entity = {
 entity = {
 	name = "pc_giga_maginot_gas_giant_01_entity"
 	pdxmesh = "planet_clouded_mesh"
+	scale = @planet_scale
 
 	# surface ships
 	attach = { planet = "pc_giga_maginot_world_surface_ships_entity" }
@@ -1275,7 +1275,7 @@ entity = {
 		#emissive_recolor_crunch = 1.0
 	}
 
-	scale = 0.255
+	scale = 2.55 #0.255 #PM: i hate you for wasting ~20 minutes of my life
 
 	# surface ships
 	attach = { planet = "pc_giga_maginot_world_surface_ships_entity" }
@@ -1364,7 +1364,6 @@ entity = {
 	default_state = "idle"
 	state = { 
 		name = "idle" 
-		animation = "idle" 
 		time_offset = { 0 100 }
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
@@ -1566,6 +1565,7 @@ entity = {
 	name = "pc_giga_maginot_titanic_ringworld_01_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh" # empty mesh workaround for name plate position
 	cull_radius = 500.0
+	scale = @ringworld_scale
 
 	game_data = {
 		size = @ringworld_segment_size
@@ -1577,8 +1577,8 @@ entity = {
 	state = { name = "idle" }
 	state = { name = "construction"	}
 
-	locator = { name = "locator1" position = { -15.0 0 0 } rotation = { -8.0 0 0 } scale = 0.5 }
-	locator = { name = "locator2" position = { 15.0 0 0 } rotation = { 8.0 0 0 } scale = 0.5 }
+	locator = { name = "locator1" position = { -15.0 0 0 } rotation = { -8.0 0 0 } scale = 0.05 }
+	locator = { name = "locator2" position = { 15.0 0 0 } rotation = { 8.0 0 0 } scale = 0.05 }
 
 	attach = { locator1 = "pc_giga_maginot_ringworld_01_entity" }
 	attach = { locator2 = "pc_giga_maginot_ringworld_01_entity" }
@@ -1589,6 +1589,7 @@ entity = {
 	name = "pc_giga_maginot_behemoth_ringworld_01_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh" # empty mesh workaround for name plate position
 	cull_radius = 500.0
+	scale = @ringworld_scale
 
 	game_data = {
 		size = @ringworld_segment_size
@@ -1600,9 +1601,9 @@ entity = {
 	state = { name = "idle" }
 	state = { name = "construction"	}
 
-	locator = { name = "locator1" position = { -23.0 0 -1.5 } rotation = { -10.0 0 0 } scale = 0.4 }
-	locator = { name = "locator2" position = { 0 0 1 } rotation = { 0 0 0 } scale = 0.4 }
-	locator = { name = "locator3" position = { 23.0 0 -1.5 } rotation = { 10.0 0 0 } scale = 0.4 }
+	locator = { name = "locator1" position = { -23.0 0 -1.5 } rotation = { -10.0 0 0 } scale = 0.04 }
+	locator = { name = "locator2" position = { 0 0 1 } rotation = { 0 0 0 } scale = 0.04 }
+	locator = { name = "locator3" position = { 23.0 0 -1.5 } rotation = { 10.0 0 0 } scale = 0.04 }
 
 	attach = { locator1 = "pc_giga_maginot_ringworld_01_entity" }
 	attach = { locator2 = "pc_giga_maginot_ringworld_01_entity" }
@@ -1614,6 +1615,7 @@ entity = {
 	name = "pc_giga_maginot_gargantuan_ringworld_01_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh" # empty mesh workaround for name plate position
 	cull_radius = 500.0
+	scale = @ringworld_scale
 
 	game_data = {
 		size = @ringworld_segment_size
@@ -1625,10 +1627,10 @@ entity = {
 	state = { name = "idle" }
 	state = { name = "construction"	}
 
-	locator = { name = "locator1" position = { -7.5 0 2 } rotation = { -5.0 0 0 } scale = 0.25 }
-	locator = { name = "locator2" position = { -23.0 0 -1 } rotation = { -16.0 0 0 } scale = 0.25 }
-	locator = { name = "locator3" position = { 7.5 0 2 } rotation = { 5.0 0 0 } scale = 0.25 }
-	locator = { name = "locator4" position = { 23.0 0 -1 } rotation = { 16.0 0 0 } scale = 0.25 }
+	locator = { name = "locator1" position = { -7.5 0 2 } rotation = { -5.0 0 0 } scale = 0.025 }
+	locator = { name = "locator2" position = { -23.0 0 -1 } rotation = { -16.0 0 0 } scale = 0.025 }
+	locator = { name = "locator3" position = { 7.5 0 2 } rotation = { 5.0 0 0 } scale = 0.025 }
+	locator = { name = "locator4" position = { 23.0 0 -1 } rotation = { 16.0 0 0 } scale = 0.025 }
 
 	attach = { locator1 = "pc_giga_maginot_ringworld_01_entity" }
 	attach = { locator2 = "pc_giga_maginot_ringworld_01_entity" }
@@ -1642,7 +1644,7 @@ entity = {
 	name = "pc_giga_maginot_ringworld_main_features_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 	
-	scale = 1
+	scale = @ringworld_scale #1
 
 	# Orbital command station
 	locator = { name = "top_station" position = { 0 23 1 } rotation = { 180 0 0 } scale = 5 }
@@ -1675,7 +1677,7 @@ entity = {
 	name = "pc_giga_maginot_ringworld_full_features_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 	
-	scale = 1
+	scale = @ringworld_scale #1
 
 	# Orbital command station
 	locator = { name = "top_station" position = { 0 23 1 } rotation = { 180 0 0 } scale = 5 }
