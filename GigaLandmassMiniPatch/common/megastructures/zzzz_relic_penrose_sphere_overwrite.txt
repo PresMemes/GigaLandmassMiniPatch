@@ -1,0 +1,12 @@
+### relic penrose shpere : game start
+#PM: I have to overwrite this so it points to a new entity that I can scale w/o fucking up every other model that uses the ruined dyson sphere model
+relic_penrose_sphere_1 = {
+	entity = "penrose_relic_entity"
+	portrait = "GFX_megastructure_construction_background"
+	potential = { always = no }
+	resources = {
+		category = giga_megastructures
+		cost = { alloys = 0 }
+		produces = { energy = 25 }
+	}
+}

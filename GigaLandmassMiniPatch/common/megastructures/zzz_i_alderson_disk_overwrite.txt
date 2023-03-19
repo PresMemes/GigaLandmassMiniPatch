@@ -1,0 +1,49 @@
+#PM: I'm sorry Dukko (or whoever else is reading this), but this is the only way to unfuck the slices being in the wrong spots.
+#Big, empty frame
+alderson_disk_1 = {
+	entity = ""
+	construction_entity = "giga_alderson_frames_01_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = yes
+	upgrade_from = { alderson_disk_0 }
+
+	build_time = 3600
+	resources = {
+		category = giga_gigastructures
+		cost = { alloys = 150000 unity = @giga_giga_unity_cost }
+		upkeep = { alloys = 25 }
+	}
+
+	potential = { NOT = { has_global_flag = alderson_disabled } }
+	possible = {
+		from = {
+			has_technology = giga_tech_alderson_disk
+			has_ascension_perk = ap_slice_of_life
+		}
+	}
+
+	ai_weight = { factor = value:giga_ai_base_continue } # If we can build it, we will build it
+	on_build_complete = {
+		save_event_target_as = giga_system
+		from = { country_event = { id = giga_dialog.2503 } }	# Notification
+		giga_remove_system_planets = yes
+		giga_remove_system_debris = yes
+		set_asteroid_belt = { radius = 0 }
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 0   orbit_distance = 124.75	owner = from } #178.75 #PM: Overwrites to stop the slices being in the wrong spots
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 45  orbit_distance = 126		owner = from } #180
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 90  orbit_distance = 124.75	owner = from } #178.75
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 135 orbit_distance = 126		owner = from } #180
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 180 orbit_distance = 124.75	owner = from } #178.75
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 225 orbit_distance = 126		owner = from } #180
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 270 orbit_distance = 124.75	owner = from } #178.75
+		spawn_megastructure = { name = "Alderson Section" type = "alderson_disk_2" orbit_angle = 315 orbit_distance = 126		owner = from } #180
+		remove_megastructure = fromfrom
+		create_ambient_object = {
+			type = "alderson_frame"
+			location = star
+			use_3d_location = yes
+			base_angle_towards = star
+			entity_face_object = star
+		}
+	}
+}
