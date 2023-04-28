@@ -101,10 +101,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "matrioshka_brain_p5_entity"}
 	attach = { loc101 = "matrioshka_brain_p4_entity"}
 	attach = { loc101 = "matrioshka_brain_p3_entity"}
 	attach = { loc101 = "matrioshka_brain_p2_entity" }
+	attach = { loc101 = "matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -379,10 +379,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "toxoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "toxoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "toxoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "toxoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "toxoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -597,10 +597,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "aquatic_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "aquatic_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "aquatic_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "aquatic_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "aquatic_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -815,10 +815,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "nemesis_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "nemesis_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "nemesis_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "nemesis_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "nemesis_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -1033,10 +1033,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "necroid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "necroid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "necroid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "necroid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "necroid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -1251,10 +1251,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "lithoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "lithoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "lithoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "lithoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "lithoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -1469,10 +1469,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "humanoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "humanoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "humanoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "humanoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "humanoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -1687,10 +1687,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "plantoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "plantoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "plantoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "plantoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "plantoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -1905,10 +1905,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "avian_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "avian_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "avian_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "avian_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "avian_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -2123,10 +2123,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "fungoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "fungoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "fungoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "fungoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "fungoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -2341,10 +2341,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "molluscoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "molluscoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "molluscoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "molluscoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "molluscoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -2559,10 +2559,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "arthropoid_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "arthropoid_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "arthropoid_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "arthropoid_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "arthropoid_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -2777,10 +2777,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "mammalian_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "mammalian_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "mammalian_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "mammalian_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "mammalian_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
@@ -2995,10 +2995,10 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	attach = { loc101 = "reptilian_01_matrioshka_brain_p5_entity"}
 	attach = { loc101 = "reptilian_01_matrioshka_brain_p4_entity"}
 	attach = { loc101 = "reptilian_01_matrioshka_brain_p3_entity"}
 	attach = { loc101 = "reptilian_01_matrioshka_brain_p2_entity" }
+	attach = { loc101 = "reptilian_01_matrioshka_brain_p5_entity"}
 }
 
 entity = {
