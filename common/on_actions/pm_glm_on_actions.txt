@@ -1,0 +1,39 @@
+#PM: Dunno why I didn't do this earlier tbh
+
+# A Megastructure has been built
+# Root = Country
+# From = Megastructure
+# FromFrom = System
+# FromFromFrom = Fleet
+on_megastructure_built = {
+	events = {
+		pm_glm.3 # Move Behemoth Assembly Plant
+	}
+}
+
+# A Megastructure has begun to be upgraded
+# Root = Country
+# From = Megastructure
+# FromFrom = System
+on_megastructure_upgrade_begin = {
+	events = {
+		
+	}
+}
+
+# A Megastructure has been upgraded
+# Root = Country
+# From = Megastructure
+# FromFrom = System
+on_megastructure_upgraded = {
+	events = {
+		pm_glm.1 # EHOF fix
+		pm_glm.2 # Hyperdimensional Destabilizer fix
+	}
+}
+
+on_game_start_country = {
+	events = {
+		pm_glm.4 # Fix Frameworld & Squareworld star size
+	}
+}
