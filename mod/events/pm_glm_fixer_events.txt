@@ -49,7 +49,7 @@ country_event = {
 
 	immediate = {
 		from.solar_system = {
-			every_system_megastructure ={
+			every_system_megastructure = {
 				limit = {
 					OR = {
 						is_megastructure_type = planetcraft_printer_0
